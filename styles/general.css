@@ -1,0 +1,612 @@
+footer {
+    clear :both;
+    background-color : gray;
+    letter-spacing : 5px;
+    color : black;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+/*************** index.html ***************************/
+
+
+/* Banner */
+
+#banner {
+    padding-top: 15vh;
+    background: black url('images/9.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+#bannerprelims {
+    padding-top: 15vh;
+    background: black url('images/1.png') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#bannerprelims blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+#bannermidterms {
+    padding-top: 15vh;
+    background: black url('images/2.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#bannermidterms blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+#bannerfinals {
+    padding-top: 15vh;
+    background: black url('images/3.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#bannerfinals blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+#bannerglossary {
+    padding-top: 15vh;
+    background: black url('images/4.png') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#bannerglossary blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+#bannerreferences {
+    padding-top: 15vh;
+    background: black url('images/6.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#bannerreferences blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+#bannerabout {
+    padding-top: 15vh;
+    background: black url('images/7.png') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#bannerabout blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+    text-align: center;
+}
+
+
+
+
+body{
+    background-color: #F5F1DE;
+    color: white;
+}
+
+b{
+    font-size: 20px;
+}
+h1{
+    font-family: "Calibri";
+    font-size: 40px;
+}
+h2{
+    margin-left: 50px;
+    font-family: "Calibri";
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Calibri";
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+body, html {
+    height: 100%
+}
+
+.container{
+	background-color: #A9A9A9;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.panel, .versions, .alpha{
+	font-size: 20px;
+	font-family: "Calibri";
+	margin-left: 150px;
+	margin-right: 150px;
+    width: 50%;
+}
+
+.panel, .versions, .alpha, #references, h1, .description, .members{
+    color: black;
+}
+
+div.panel, div.versions, div.alpha {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+button.accordion {
+    background-color: #D4D7FE;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 160px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #cdd1fe;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-left: 160px;
+    width: 70%;
+}
+
+.TableRHF{
+	width:100%; 
+	border-collapse:collapse;
+    color: black; 
+}
+
+.TableRHF td{ 
+	padding:10px; border:black 1px solid;
+}
+
+.TableRHF tr{
+	background: #F5FFFA;
+}
+	
+
+
+table{''
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.bgimg {
+    /* Background image */
+    background-color: #8598aa;
+    /* Full-screen */
+    height: 80%;
+    width: 70%;
+    margin-left: 15%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: 50px;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+    /********************************************/
+    /************** NORMALIZE *******************/
+    /********************************************/
+    
+    body {
+        margin: 0;
+    }
+    /********************************************/
+    /******************* Grid *******************/
+    /********************************************/
+    
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1200px;
+        margin-top: 6%;
+    }
+    /* Prevent columns outside */
+    
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Columns */
+    /* Column Gutters */
+    /*-- setting border box on all elements inside the grid --*/
+    
+    .container * {
+        box-sizing: border-box;
+    }
+    
+    [class*='col-'] {
+        float: left;
+        min-height: 1px;
+        width: 16.66%;
+        padding: 10px;
+    }
+    
+    .col-1 {
+        width: 16.66%;
+    }
+    
+    .col-2 {
+        width: 33.33%;
+    }
+    
+    .col-3 {
+        width: 50%;
+    }
+    
+    .col-4 {
+        width: 66.66%;
+    }
+    
+    .col-5 {
+        width: 83.33%;
+    }
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .center-block {
+        margin: 0 auto;
+    }
+    /********************************************/
+    /************* Typography *******************/
+    /********************************************/
+    
+    .page-header {
+        font-size: 2em;
+        border-bottom: solid 1px black;
+        padding-bottom: 0.5em;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-left {
+        text-align: left;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    a {
+        transition: color .4s;
+        color: #265C83;
+    }
+    
+    a:link,
+    a:visited {
+        color: #265C83;
+    }
+    
+    a:hover {
+        color: #7FDBFF;
+    }
+    
+    a:active {
+        transition: color .3s;
+        color: #007BE6;
+    }
+    /********************************************/
+    /***************** IMAGES *******************/
+    /********************************************/
+    
+    .img-circle {
+        border-radius: 50%;
+    }
+    
+    .img-rounded {
+        border-radius: 3%;
+    }
+    
+    .img-responsive {
+        width: 100%;
+        height: auto;
+    }
+    /********************************************/
+    /************* NAVIGATION *******************/
+    /********************************************/
+    
+    nav ul.nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    .nav li {
+        font-size: 1.1em;
+        float: left;
+    }
+    
+    .nav.nav-right li {
+        float: right;
+    }
+    
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #111;
+    }
+    
+    nav ul.nav-fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    nav .brand {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        margin-left: 8%;
+        position: absolute;
+        left: 0;
+    }
+    /********************************************/
+    /************* TABLES ***********************/
+    /********************************************/
+    
+    * table {
+        overflow-x: auto;
+    }
+    
+    table {
+        text-align: left;
+        width: 100%;
+    }
+    
+    td,
+    th {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    table th {
+        font-size: 1.7em;
+    }
+    
+    table tr {
+        margin: 0 10%;
+    }
+    /* ICONS */
+    
+    .icon {
+        display: inline;
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        margin-right: 2%;
+    }
+    
+    .icon:before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-left: -20px;
+    }
+    
+    .icon-calendar:before {
+        background: url('../images/icons/calendar.png');
+        background-size: cover;
+    }
+    
+    .icon-work:before {
+        background: url('../images/icons/work.png');
+        background-size: cover;
+    }
+    
+    .icon-home:before {
+        background: url('../images/icons/home.png');
+        background-size: cover;
+    }
+    
+    .icon-mail:before {
+        background: url('../images/icons/mail.png');
+        background-size: cover;
+    }
+    
+    .icon-contact:before {
+        background: url('../images/icons/contact.png');
+        height: 27px;
+        background-size: cover;
+    }
+    
+    .icon-education:before {
+        background: url('../images/icons/education.png');
+        background-size: cover;
+    }
+    
+    .icon-skills:before {
+        background: url('../images/icons/skills.png');
+        background-size: cover;
+    }
+    /* Medium size icons */
+    
+    .icon-md {
+        margin-right: 6%;
+        margin-left: 10px;
+    }
+    
+    .icon-md:before {
+        height: 50px;
+        width: 50px;
+    }
+    /* Media Queries */
+    
+    @media only screen and (max-width: 768px) {
+        * {
+            font-size: 0.97em;
+        }
+        .img-responsive {
+            width: 40%;
+        }
+        .container {
+            width: 90%;
+        }
+        [class*='col-'] {
+            width: 100%;
+        }
+        .icon,
+        .icon-md {
+            display: inline;
+            color: white;
+            text-decoration: none;
+            padding-left: 20px;
+            margin-right: 2%;
+        }
+        .icon:before,
+        .icon-md:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            margin-left: -20px;
+            margin-right: 7%;
+        }
+        .icon-md:before {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .hide-small {
+            display: none;
+        }
+    }
