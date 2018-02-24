@@ -1,0 +1,104 @@
+HTTP STATUS CODES
+
+
+
+INFORMATIONAL
+	
+100 - Continue 
+	- informs the client that part of the request had been recieved and 
+has not been rejected.
+	
+101 - Switching protocol 
+
+
+
+SUCCESS
+	
+200 - OK - request successful
+	
+201 - Created - request successful and new resource created
+	
+202 - Accepted - accepted but not have process
+	
+203 - Non - Authoritative Information 
+	- some information doesn't come to the origin server
+	
+204 - No Content 
+	- operation successful but no message to be sent
+	
+205 - Reset Content - 
+	
+206 - Partial Content 
+	- only partial content was retrieved
+
+
+
+REDIRECTION
+	
+300 - Multiple Choice 
+	- requesting something but has many versions.
+	
+301 - Moved Permanently 
+		- request resource moved permanently to another URI
+	
+302 - Found 
+	- request resource found in a different URI------|
+
+ } Redirection on server side 
+	
+303 - See other - ---|
+	
+304 - Not Modified 
+	- client performed a get request but no modification has been 
+done.
+	
+305 - Use Proxy -
+
+306 - (Unused)
+307 - Temporary Redirect	
+
+
+
+CLIENT ERROR
+	
+400 - Bad Request 
+	- there'problem in the syntax causing the server to not 
+understand the request
+	
+401 - Unauthorized 
+	- request needs user authentication
+	
+402 - Payment Required -
+	
+403 - Forbidden 
+	- access forbidden with or without authorization
+	
+404 - Not Found 
+	- server cannot find the requested URI
+	
+405 - Method Not Allowed 
+406 - Not Acceptable
+407 - Proxy Authentication
+408 - Request Timeout
+409 - Conflict
+
+
+410 - Gone
+411 - Length Required
+412 - Precondition Failed
+413 - Payload Too Large
+414 - Request-URL Too Long
+415 - Unsupported Media Type
+416 - Request Range Not Satisfied
+417 - Expectation Failed
+426 - Upgrade Required
+
+SERVER ERROR
+
+
+500 - Internal Server error
+501 - Not implemented
+502 - Bad gateway
+503 - Service Unavailable
+504 - Gateway Timeout
+505 - HTTP Version Not Supported

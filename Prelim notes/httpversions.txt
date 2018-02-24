@@ -1,0 +1,8 @@
+HTTP Versions 
+
+
+1. HTTP 0.9 – 1991 only 3 methods (get, head, post) 
+
+2. HTTP 1.0 (RFC 1945, May 1996) all 8 methods 
+
+3. HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 June 1999) 

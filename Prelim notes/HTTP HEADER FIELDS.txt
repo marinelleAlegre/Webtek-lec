@@ -1,0 +1,41 @@
+HTTP HEADER FIELDS
+
+
+User-Agent
+	-it identifies the client application requesting 
+the information
+
+Accept-Encoding
+	-it identifies the encoding method sent to the server
+
+Accept-Language
+	-the language accepted in response to the request
+
+Accept-Charset
+	-identifies the character sets acepted in the response
+
+Accept
+	-identifies the type of document in response to the request
+
+Host
+	-returns the address of the host
+
+
+HTTP RESPONSE HEADER
+
+
+Content-Encoding
+	-used to identify to the media type
+
+Content-Length
+	-identifies the length of the response body
+
+Content-Type
+	-used to indicates the media type of the entity-body sent
+
+Date
+	-give the date and time that the message was sent
+
+If-Modified-Since
+	-contains a date of when the user agent last retrieved the resource.
+	
