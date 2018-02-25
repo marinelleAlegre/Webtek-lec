@@ -77,6 +77,11 @@
     				The term is often mistakenly used as a synonym for the Internet itself, but the Web is a service that operates over Internet as E-mail does.</li>
 					<li>in September 1994, Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology
     				with support from the Defense Advanced Research Projects Agency (DARPA) and the Europian Commission.It compromised various companies that were willing to create standards and recommendations to improve the quality of the Web.</li>
+    				<li>The first web browser - or browser-editor rather - was called WorldWideWeb as, after all, when it was written in 1990 it was the only way to see the web. Much later it was renamed Nexus in order to save confusion between the program and the abstract information space (which is now spelled <i>World Wide Web</i> with spaces).</li>
+    				<p>Interaction</p>
+    				<li>Web interaction in finding factual information, develops a conceptual framework for studying user-Web interaction, and applies a process-tracing method for conducting holistic user-Web studies. Describes measurement techniques and proposes a model consisting of the user, interface, and the World Wide Web.</li>
+    				<p>Collection of Web Resources</p>
+    				<li>As the World Wide Web becomes an increasingly popular platform for the delivery of digitized information, librarians face the challenge of finding and using information that's accurate and reliable. Browsers such as Netscape and Microsoft Explorer have demystified the Internet, and make its contents accessible to users who have a minimum of technical expertise. Consequently, the notion of the Internet as a virtual library, available at the click of a mouse, is becoming increasingly attractive, particularly to libraries with limited resources and small collections.</li>
 				</ul>
 		</div>
 
@@ -87,10 +92,23 @@
 		</div>
 		<div id="http" class="collapse">
 				<ul>
+					<li>The retrieval of linked resources from across the web.</li>
 					<li>Application layer used primarily to retrieve hypertext (on hypermedia) documents and resources on the World Wide Web</li>
 					<li>Jointly developed by the W3C and the IETF</li>
 					<li>Protocol - Set of rules needs to be followed</li>
 					<li>HTTP 1.1 requires atleast the HOST request</li>
+				</ul>
+				<ul>
+					<h4>HTML</h4>
+					<li>Hypertext Markup Language - A Markup (formatting) Language of the Web.</li>
+					<h4>URI</h4>
+					<li>Uniform Resource Identifier - An “address” that is unique and used to identify to each resource on the web. It is also commonly called a URL</li>
+					<h4>Hypermedia</h4>
+					<li>To embrace the World Wide Web as their primary application infrastructure, they should not bypass the benefit of hypermedia support. The Web's infrastructure can serve as an interface to all interactive applications and, over time, will become the graphical user interface model for new applications. Ubiquitous hypermedia support should become the jewel of the Web environment. Through Web integration, hypermedia could become an integral part of every interactive application with the proper tools to support hypermedia in Web application development.</li>
+					<h4>Static</h4>
+					<li>Static web sites are built using individual web page files written in HyperText Markup Language (HTML), along with some support files for styling (e.g., Cascading Style Sheets – CSS), images (e.g., JPGs, GIFs, etc.) and media elements (e.g., audio, video and Flash objects). Files are usually prepared off-line on a local computer using specialized web-authoring software like Adobe Dreamweaver, and then “published” to a web server connected to the World Wide Web (WWW). </li>
+					<h4>Dynamic</h4>
+					<li>Dynamic web site development came out of that need for interaction. These sites often provide the user with the ability to interact with the content and provide some kind of feedback. But the real reason for calling these sites dynamic has to do with how the sites are constructed and maintained. In the dynamic web site, all of the content, styling files and related web documents are contained within one or more databases located somewhere on the Web and “controlled” or administered by an application called a Content Management System (CMS).</li>
 				</ul>
 
 			<div id="fundamentals" class="collapse">
@@ -99,6 +117,23 @@
 				</div>
 			</div>
 			<img src="styles/images/fundamentals.png" class="img-responsive" alt="fundamentals">
+			<ul>
+				<h4>Network</h4>
+				<li>Connection</li>
+				<h4>Scheme</h4>
+				<li>http or https - Each URI begins with a scheme name that refers to a specification for assigning identifiers within that scheme.  As such, the URI syntax is a federated and extensible naming system wherein each scheme's specification may further restrict the syntax and semantics of identifiers using that scheme.</li>
+				<h4>Authority</h4>
+				<li>The authority component is preceded by a double slash ("//") and is terminated by the next slash ("/"), question mark ("?"), or number sign ("#") character, or by the end of the URI.</li>
+				<h4>Path</h4>
+				<li>The path component contains data, usually organized in hierarchical form, that, along with data in the non-hierarchical query component, serves to identify a resource within the scope of the URI's scheme and naming authority. The path is terminated by the first question mark ("?") or number sign ("#") character, or by the end of the URI.</li>
+				<h4>Port</h4>
+				<li>The port subcomponent of authority is designated by an optional port number in decimal following the host and delimited from it by a single colon (":") character.</li>
+				<h4>Query</h4>
+				<li>The query component contains non-hierarchical data that, along with data in the path component, serves to identify a  resource within the scope of the URI's scheme and naming authority .The query component is indicated by the first question mark ("?") character and terminated by a number sign ("#") character or by the end of the URI.</li>
+				<h4>Fragment</h4>
+				<li>The fragment identifier component of a URI allows indirect identification of a secondary resource by reference to a primary resource and additional identifying information.  The identified secondary resource may be some portion or subset of the primary resource, some view on representations of the primary resource, or some other resource defined or described by those representations.  A fragment identifier component is indicated by the presence of a number sign ("#") character and terminated by the end of the URI.</li>
+			</ul>
+			<h3>Other Information</h3>
 				<ul>
 				  <li>HTTP typically runs on the top of TCP/IP, using TCP port 80 by default (TCP port 443 for HTTPS)</li>
 				  <li>HTTP resources are identified using URIs (specifically in HTTP URLs)</li>
@@ -148,8 +183,8 @@
 					<h3>HTTP Request Methods</h3>
 				</div>
 			</div>
+
 			<div id="http-requests" class="collapse">
-				<ul>
 				<li data-toggle="collapse" data-target="#get"><b><a>GET</a></b></li>
 				<div id="get" class="collapse">
 					<ul>
