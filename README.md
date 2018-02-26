@@ -35,7 +35,7 @@ Write or copy some HTML into Notepad.
 
 Step 3: Save the HTML Page
 Save the file on your computer. Select File > Save as in the Notepad menu.
-Name the file "index.htm" and set the encoding to UTF-8 (which is the preferred encoding for HTML files).
+Name the file "index.html" and set the encoding to UTF-8 (which is the preferred encoding for HTML files).
 You can use either .htm or .html as file extension. There is no difference, it is up to you.
 
 Step 4: View the HTML Page in Your Browser
