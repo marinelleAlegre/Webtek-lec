@@ -158,7 +158,88 @@ body, html {
     height: 100%
 }
 
+.container{
+	background-color: #A9A9A9;
+	margin-left: 120px;
+	margin-right: 120px;
+}
 
+.panel, .versions, .alpha{
+	font-size: 20px;
+	font-family: "Calibri";
+	margin-left: 150px;
+	margin-right: 150px;
+    width: 50%;
+}
+
+.panel, .versions, .alpha, #references, h1, .description, .members{
+    color: black;
+}
+
+div.panel, div.versions, div.alpha {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+button.accordion {
+    background-color: #D4D7FE;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 160px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #cdd1fe;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-left: 160px;
+    width: 70%;
+}
+
+.TableRHF{
+	width:100%; 
+	border-collapse:collapse;
+    color: black; 
+}
+
+.TableRHF td{ 
+	padding:10px; border:black 1px solid;
+}
+
+.TableRHF tr{
+	background: #F5FFFA;
+}
+	
+
+
+table{''
+    display: block;
+    width: 25%;
+    float: left;
+}
 
 .bgimg {
     /* Background image */
