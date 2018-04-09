@@ -38,14 +38,373 @@
 </div>
 <body>
 <Link rel ="stylesheet" href="styles/comingsoon.css"/>
-<div class = "container1">
-<div class="bgimg">
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>20 days left</p>
-  </div>
+<div class = "container">
+	<h2>Cascading Style Sheet (CSS)</h2>
+        <p>Is a simple design language intended to simplify the process of making web pages presentable. CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects. CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML. It is developed by Hakon Wium Lee(CHSS) and Bert Bos (SSP)
+        </p>
+        <h2>CSS Rule Precedence:</h2>
+
+            <p>By origin and importance:</br>
+                        </br>1. useragent important declarations
+                        </br>2. user important declarations
+                        </br>3. author important declarations
+                        </br>4. author normal declarations
+                        </br>5. user normal declarations
+                        </br>6. user agent normal declarations
+                        </p>
+            <p>By specificity:</br>
+                        </br>1. inline style
+                        </br>2. number of ID selectors
+                        </br>3. number of class selectors, attribute selectors, and pseudo classes
+                        </br>4. number of type selectors and pseudo elements
+                        </p>
+        Find more about CSS <a href = "https://www.tutorialspoint.com/css/what_is_css.htm">here</a>
+                </br></br>
+
+                <b><u>CSS Declarations, Properties, and Values</u></b></br></br>
+                <table class = "TableRHF">
+                <tr> 
+                    <td>Keywords</td>
+                </tr>
+                <tr> 
+                    <td>Percentages</td> 
+                </tr>
+                <tr> 
+                    <td>Colors</td> 
+                </tr>
+                <tr> 
+                    <td>Numbers</td> 
+                </tr>
+                <tr> 
+                    <td>Strings</td> 
+                </tr>
+                <tr> 
+                    <td>URI's</td> 
+                </tr>
+                <tr> 
+                    <td>Shorthand properties</td> 
+                </tr>
+                <tr> 
+                    <td>Dimensions
+                        <li>length-units</li>
+                        <li>font-relative: em, ex,ch,rem</li>
+                        <li>viewport percentage: vm,vh,vmin,vmax</li>
+                        <li>absolute lengths: cm,mm,q,in,pt,pc,px</li>
+                        <li>angle untis: deg,grad,rad</li>
+                        <li>durations units: s,ms</li>
+                        <li>frequency units: hz,khz</li>
+                        <li>resolution units: dpi,dpcm,dppx</li>
+                    </td>
+                </tr>
+            </table>
+
+        <p>
+        <b><u>Index of Elements by W3C Recommendation</u></b></br></br>
+                Legend: Optional, Forbidden, Empty, Deprecated, Loose DTD, Frameset DTD
+             <table class = "TableRHF">
+                <tr> 
+                    <td>Name</td>
+                    <td>Start Tag</td> 
+                    <td>End Tag</td>
+                    <td>Empty</td> 
+                    <td>Depr.</td>
+                    <td>DTD.</td>
+                    <td>Description.</td>
+                </tr>
+                <tr> 
+                    <td>Address</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td>information on author</td>
+                </tr>
+                <tr> 
+                    <td>Basefont</td>
+                    <td></td> 
+                    <td>F</td>
+                    <td>E</td> 
+                    <td>D</td>
+                    <td>L</td>
+                    <td>base font size</td>
+                </tr>
+                <tr> 
+                    <td>Body</td>
+                    <td>O</td> 
+                    <td>O</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td>document body</td>
+                </tr>
+                <tr> 
+                    <td>Center</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td> 
+                    <td>D</td>
+                    <td>L</td>
+                    <td>shorthand for DIV align = center</td>
+                </tr>
+                <tr> 
+                    <td>Col</td>
+                    <td></td> 
+                    <td>F</td>
+                    <td>E</td> 
+                    <td></td>
+                    <td></td>
+                    <td>table column</td>
+                </tr>
+                <tr> 
+                    <td>Div</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td>generic language/style container</td>
+                </tr>
+                <tr> 
+                    <td>DT</td>
+                    <td></td> 
+                    <td>O</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td>deifinition term</td>
+                </tr>
+                <tr> 
+                    <td>Fieldset</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td>form control group</td>
+                </tr>
+                <tr> 
+                    <td>Font</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td> 
+                    <td>D</td>
+                    <td>L</td>
+                    <td>local change to font</td>
+                </tr>
+                <tr> 
+                    <td>Frame</td>
+                    <td></td> 
+                    <td>F</td>
+                    <td>E</td> 
+                    <td></td>
+                    <td>F</td>
+                    <td>subwindow</td>
+                </tr>
+                <tr> 
+                    <td>H1-H6</td>
+                    <td></td> 
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td>Heading</td>
+                </tr>
+            </table>
+
+        Find more about the Elements <a href = "https://www.w3.org/TR/html4/index/elements.html">here</a>
+    </br>
+        <h2>Pattern Matching by W3C Recommendations</h2>
+        <p>In CSS, pattern matching rules determine which style rules apply to elements in the document tree. These patterns, called selectors, may range from simple element names to rich contextual patterns. If all conditions in the pattern are true for a certain element, the selector matches the element.
+        </br></br>
+        The case-sensitivity of document language element names in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML they are case-sensitive.
+        </br></br>
+        The following table summarizes CSS 2.1 selector syntax:
+        <table class = "TableRHF">
+                    <tr> 
+                        <td>Pattern</td>
+                        <td>Meaning</td> 
+                        <td>Described in Section</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>Matches any element.</td>
+                        <td>Universal selector</td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td>Matches any E element (i.e., an element of type E).</td>
+                        <td>Type selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E F</td>
+                        <td>Matches any F element that is a descendant of an E element.</td>
+                        <td>Descendant selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E > F</td>
+                        <td>Matches any F element that is a child of an element E.</td>
+                        <td>Child selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E:first-child</td>
+                        <td>Matches element E when E is the first child of its parent.</td>
+                        <td>The :first-child pseudo-class</td>
+                    </tr>
+                    <tr>
+                        <td>E:link</td>
+                        <td>Matches element E if E is the source anchor of a hyperlink of which the target is not yet visited (:link) or already visited (:visited).</td>
+                        <td>The link pseudo-classes</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>E:visited</td>
+                        <td>Matches element E if E is the source anchor of a hyperlink of which the target is not yet visited (:link) or already visited (:visited).</td>
+                        <td>The link pseudo-classes</td>
+                    </tr>
+                    <tr> 
+                        <td>E:active</td>
+                        <td>Matches E during certain user actions.</td>
+                        <td>The dynamic pseudo-classes</td>
+                    </tr>
+                    <tr>
+                        <td>E:hover</td>
+                        <td>Matches E during certain user actions.</td>
+                        <td>The dynamic pseudo-classes</td>
+                    </tr>
+                    <tr>
+                        <td>E:focus</td>
+                        <td>Matches E during certain user actions.</td>
+                        <td>The dynamic pseudo-classes</td>
+                    </tr>
+                    <tr>
+                        <td>E:lang(c)</td>
+                        <td>Matches element of type E if it is in (human) language c (the document language specifies how language is determined).</td>
+                        <td>The :lang() pseudo-class</td>
+                    </tr>
+                    <tr>
+                        <td>E + F</td>
+                        <td>Matches any F element immediately preceded by a sibling element E.</td>
+                        <td>Adjacent selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E[foo]</td>
+                        <td>Matches any E element with the "foo" attribute set (whatever the value).</td>
+                        <td>Attribute selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E[foo="warning"]</td>
+                        <td>Matches any E element whose "foo" attribute value is exactly equal to "warning".</td>
+                        <td>Attribute selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E[foo~="warning"]</td>
+                        <td>Matches any E element whose "foo" attribute value is a list of space-separated values, one of which is exactly equal to "warning".</td>
+                        <td>Attribute selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E[lang|="en"]</td>
+                        <td>Matches any E element whose "lang" attribute has a hyphen-separated list of values beginning (from the left) with "en".</td>
+                        <td>Attribute selectors</td>
+                    </tr>
+                    <tr>
+                        <td>DIV.warning</td>
+                        <td>Language specific. (In HTML, the same as DIV[class~="warning"].)</td>
+                        <td>Class selectors</td>
+                    </tr>
+                    <tr>
+                        <td>E#myid</td>
+                        <td>Matches any E element with ID equal to "myid".</td>
+                        <td>ID selectors</td>
+                    </tr>   
+            </table>
+        </p>
+        <p>
+               Find more about the Selectors <a href = "https://www.w3.org/TR/CSS21/selector.html#selector-syntax">here</a> 
+
+               <h2>Pseudo Elements and Pseudo-Classes by W3C Recommendations</h2>
+                <p>
+                In CSS 2.1, style is normally attached to an element based on its position in the document tree. This simple model is sufficient for many cases, but some common publishing scenarios may not be possible due to the structure of the document tree. For instance, in HTML 4 (see [HTML4]), no element refers to the first line of a paragraph, and therefore no simple CSS selector may refer to it.
+                </br></br>
+                CSS introduces the concepts of pseudo-elements and pseudo-classes to permit formatting based on information that lies outside the document tree.
+                </br></br>
+                Pseudo-elements create abstractions about the document tree beyond those specified by the document language. For instance, document languages do not offer mechanisms to access the first letter or first line of an element's content. CSS pseudo-elements allow style sheet designers to refer to this otherwise inaccessible information. Pseudo-elements may also provide style sheet designers a way to assign style to content that does not exist in the source document (e.g., the :before and :after pseudo-elements give access to generated content).
+                </br></br>
+                Pseudo-classes classify elements on characteristics other than their name, attributes or content; in principle characteristics that cannot be deduced from the document tree. Pseudo-classes may be dynamic, in the sense that an element may acquire or lose a pseudo-class while a user interacts with the document. The exceptions are ':first-child', which can be deduced from the document tree, and ':lang()', which can be deduced from the document tree in some cases.
+                Neither pseudo-elements nor pseudo-classes appear in the document source or document tree.
+                </br></br>
+                Pseudo-classes are allowed anywhere in selectors while pseudo-elements may only be appended after the last simple selector of the selector.
+                </br></br>
+                Pseudo-element and pseudo-class names are case-insensitive.
+                </br></br>
+                Some pseudo-classes are mutually exclusive, while others can be applied simultaneously to the same element. In case of conflicting rules, the normal cascading order determines the outcome.
+                </br></br>
+                Find more about the Pseudo elements and classes <a href = "https://www.w3.org/TR/CSS21/selector.html#pseudo-elements">here</a>
+
+                <h2>JavaScripts by Mozilla Developer Network</h2>
+                <p>
+                JavaScript (JS) is a lightweight interpreted or JIT-compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
+                </br></br>
+                The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. On June 17, 2015, ECMA International published the sixth major version of ECMAScript, which is officially called ECMAScript 2015, and was initially referred to as ECMAScript 6 or ES6. Since then, ECMAScript standards are on yearly release cycles. This documentation refers to the latest draft version, which is currently ECMAScript 2018.
+                </br></br>
+                Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and uses.
+                </br></br>
+                To know more about the JavaScript, read <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript">here</a>
+                </br></br>
+                <b>DECLARING VARIABLES</b>
+                </br></br>
+                1. With the keyword var. For example, var x = 42. This syntax can be used to declare both local and global variables.
+                </br></br>
+                2. By simply assigning it a value. For example, x = 42. This always declares a global variable, if it is declared outside of any function. It generates a strict JavaScript warning. You shouldn't use this variant.
+                </br></br>
+                3. With the keyword let. For example, let y = 13. This syntax can be used to declare a block scope local variable.
+                </br></br>
+                <b>DATA STRUCTURES AND TYPES</b>
+                </br></br>
+                The latest ECMAScript standard defines seven data types:
+                </br></br>
+                Six data types that are primitives:
+                </br></br>
+                1. Boolean. true and false.
+                </br></br>
+                2. null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
+                </br></br>
+                3. undefined. A top-level property whose value is undefined.
+                </br></br>
+                4. Number. 42 or 3.14159.
+                </br></br>
+                5. String. "Howdy"
+                </br></br>
+                6. Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.
+                </br></br>
+                7. and Object
+                </br></br>
+                To know more about the JavaScript's Grammar and type, read <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types">here</a>
+                </br></br>
+                <b>Basic language features: </b>
+                </br></br>
+                1. Paradigm: Object-oriented (prototype-based), functional, imperative scripting language 
+                </br></br>
+                2. Java-/C-like syntax: Implicit semicolon insertion for statement termination, Identifiers are alphanumeric, _, and $ characters, Single-line (//) or block (/**/) comments
+                </br></br>
+                3. Type system and variable scoping rules:  Dynamic (aka loose or weak) typing: Global (aka top-level) or local scopes, Data types
+                </br></br>
+                <b>Data types: </b>
+                </br></br>
+                1. Primitive types: Numbers (decimal, hexadecimal notation), Booleans (true, false), Strings (Single or Double quote delimited), Undefined and Null 
+                </br></br>
+                2. Java-/C-like syntax: Implicit semicolon insertion for statement termination, Identifiers are alphanumeric, _, and $ characters, Single-line (//) or block (/**/) comments
+                </br></br>
+                3. Core JavaScript Objects: Object, Number, Boolean, String, Date, Math, Global, RegExp, Error, Arrays (Array), Functions (Function), Arguments
+                </br></br>
+                3. DOM Objects: Anchor, Applet, Attr, Comment, DOMException, DOMImplementation, DocumentFragment, Element, Event, Form, Image, Input, Layer, Link, Node, Option, Select, Style, Text, TextArea
+                </br></br>
+
+            </p>
+            </p>
+            </p>
 </div>
+
 </div> 
 <footer class="footer text-center">
         <p>Copyright - Web Systems and Technologies Course Website&copy; 2018</p>
