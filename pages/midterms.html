@@ -39,6 +39,89 @@
 <body>
 <Link rel ="stylesheet" href="styles/comingsoon.css"/>
 <div class = "container">
+	<div id = "html5">
+        <h2>HTML 5.1 by W3C Recommendation, 1 November 2016</h2>
+        <p>
+            This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.
+        </p>
+        <h2>HTML Through The Years</h2>
+        <p>
+            For its first five years (1990-1995), HTML went through a number of revisions and experienced a number of extensions, primarily hosted first at CERN, and then at the IETF.
+            </br></br>
+            With the creation of the W3C, HTML’s development changed venue again. A first abortive attempt at extending HTML in 1995 known as HTML 3.0 then made way to a more pragmatic approach known as HTML 3.2, which was completed in 1997. HTML 4.01 quickly followed later that same year.
+            </br></br>
+            The following year, the W3C membership decided to stop evolving HTML and instead begin work on an XML-based equivalent, called XHTML. This effort started with a reformulation of HTML 4.01 in XML, known as XHTML 1.0, which added no new features except the new serialization, and which was completed in 2000. After XHTML 1.0, the W3C’s focus turned to making it easier for other working groups to extend XHTML, under the banner of XHTML Modularization. In parallel with this, the W3C also worked on a new language that was not compatible with the earlier HTML and XHTML languages, calling it XHTML 2.0.
+            </br></br>
+            Around the time that HTML’s evolution was stopped in 1998, parts of the API for HTML developed by browser vendors were specified and published under the name DOM Level 1 (in 1998) and DOM Level 2 Core and DOM Level 2 HTML (starting in 2000 and culminating in 2003). These efforts then petered out, with some DOM Level 3 specifications published in 2004 but the working group being closed before all the Level 3 drafts were completed.
+            </br></br>
+            In 2003, the publication of XForms, a technology which was positioned as the next generation of Web forms, sparked a renewed interest in evolving HTML itself, rather than finding replacements for it. This interest was borne from the realization that XML’s deployment as a Web technology was limited to entirely new technologies (like RSS and later Atom), rather than as a replacement for existing deployed technologies (like HTML).
+            </br></br>
+            Shortly thereafter, Apple, Mozilla, and Opera jointly announced their intent to continue working on the effort under the umbrella of a new venue called the WHATWG. A public mailing list was created, and the draft was moved to the WHATWG site. The copyright was subsequently amended to be jointly owned by all three vendors, and to allow reuse of the specification.
+            </br></br>
+            The WHATWG was based on several core principles, in particular that technologies need to be backwards compatible, that specifications and implementations need to match even if this means changing the specification rather than the implementations, and that specifications need to be detailed enough that implementations can achieve complete interoperability without reverse-engineering each other.
+            </br></br>
+            The latter requirement in particular required that the scope of the HTML specification include what had previously been specified in three separate documents: HTML 4.01, XHTML 1.1, and DOM Level 2 HTML. It also meant including significantly more detail than had previously been considered the norm.
+            </br></br>
+            In 2006, the W3C indicated an interest to participate in the development of HTML 5.0 after all, and in 2007 formed a working group chartered to work with the WHATWG on the development of the HTML specification. Apple, Mozilla, and Opera allowed the W3C to publish the specification under the W3C copyright, while keeping a version with the less restrictive license on the WHATWG site.
+            </br></br>
+            For a number of years, both groups then worked together under the same editor: Ian Hickson. In 2011, the groups came to the conclusion that they had different goals: the W3C wanted to draw a line in the sand for features for a HTML 5.0 Recommendation, while the WHATWG wanted to continue working on a Continually Updated Specification for HTML, continuously maintaining the specification and adding new features. In mid 2012, a new editing team was introduced at the W3C to take care of creating a HTML 5.0 Recommendation and prepare a Working Draft for the next HTML version.
+        </p>
+        <h2>The HTML Syntax</h2>
+        <p>
+            This section only describes the rules for resources labeled with an HTML MIME type. Rules for XML resources are discussed in the section below entitled "the XHTML syntax".
+        </p>
+        <p><b>Writing HTML Documents</b></p>
+        <p>
+            This section only applies to documents, authoring tools, and markup generators. In particular, it does not apply to conformance checkers; conformance checkers must use the requirements given in the next section ("parsing HTML documents").
+            </br></br>
+            Documents must consist of the following parts, in the given order:
+            </br>
+            1. Optionally, a single U+FEFF BYTE ORDER MARK (BOM) character.
+            </br>
+            2. Any number of comments and space characters.
+            </br>
+            3. A DOCTYPE.
+            </br>
+            4. Any number of comments and space characters.
+            </br>
+            5. The root element, in the form of an html element.
+            </br>
+            6. Any number of comments and space characters.
+            </br></br>
+            Read more about writing HTML Documents <a href = "https://www.w3.org/TR/html51/syntax.html#writing-html-documents-elements">here</a>
+            </br></br>
+            <b>HTML ELEMENTS</b>
+            </br>
+            There are five different kinds of elements: <b>void elements, raw text elements, escapable raw text elements, foreign elements, and normal elements</b>
+            </br></br>
+        </p>
+    </div>
+    
+    <button class="accordion"><b>Void Elements</b></button>    
+                <div class = "panel" id = "void">
+                    area, base, br, col, embed, hr, img, input, keygen, link, menuitem, meta, param, source, track, wbr
+                </div>
+    <button class="accordion"><b>Raw Text Elements</b></button>    
+                <div class = "panel" id = "raw">
+                    script, style
+                </div>
+    <button class="accordion"><b>Escapable Raw Text Elements</b></button>    
+                <div class = "panel" id = "esc">
+                    textarea, title
+                </div>
+    <button class="accordion"><b>Foreign Elements</b></button>    
+                <div class = "panel" id = "foreign">
+                    Elements from the MathML namespace and the SVG namespace.
+                </div>
+    <button class="accordion"><b>Normal Elements</b></button>    
+                <div class = "panel" id = "normal">
+                    All other allowed html elements are normal elements.
+                </div>
+            </br>
+            <p>
+        Read more about the Elements <a href = "https://www.w3.org/TR/html51/syntax.html#writing-html-documents-elements">here</a>
+    </p>
+        </br>
 	<h2>Cascading Style Sheet (CSS)</h2>
         <p>Is a simple design language intended to simplify the process of making web pages presentable. CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects. CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML. It is developed by Hakon Wium Lee(CHSS) and Bert Bos (SSP)
         </p>
