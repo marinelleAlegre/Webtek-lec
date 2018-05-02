@@ -1,319 +1,770 @@
-<!DOCTYPE html>
-<html>
-	<head>
-  		<meta name="description" content="HTTP">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poppins" rel="stylesheet">
-  		<title>Server-Side Technologies</title>
-	</head>
-	<style>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Web System and Technologies </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+       
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,300' rel='stylesheet' type='text/css'>
 
-	@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poppins);
-
-	body {
-	    margin: 0;
-	    font-family: 'Open Sans Condensed', sans-serif;
-	    background-color: #f1f1f1;
-	}
-	a.elay:hover {
-	 	color: blue !important;
-	 	background-color: #f1f1f1 !important;
-	}
-
-	ul {
-	    list-style-type: none;
-	    margin: 0;
-	    padding: 0;
-	    width: 25%;
-	    background-color: #f1f1f1;
-	    position: fixed;
-	    height: 100%;
-	    overflow: auto;
-	}
-
-	li a {
-	    display: block;
-	    color: #000;
-	    padding: 8px 16px;
-	    text-decoration: none;
-	    font-family: 'Open Sans Condensed', sans-serif;
-	}
-
-	li a.active {
-	    background-color: #4CAF50;
-	    color: white;
-	}
-
-	li a:hover:not(.active) {
-	    background-color: #555;
-	    color: white;
-	}
-	h2.ECH2 {
-		color: #1785B2;
-		text-indent: 18px;
-		font-size: 20px;
-		padding:0px 0px 30px 0px;
-		margin:0px;
-	}
-
-	h1.ech1 {
-		padding:0px;
-		margin:0px;
-	}
-	input[type=text] {
-
-	    width: 130px;
-	    height: 40px;
-	    box-sizing: border-box;
-	    border: 2px solid #555;
-	    border-radius: 4px;
-	    font-size: 16px;
-	    background-color: white;
-	    background-image: url('img/search.png');
-	    background-size: 18px 18px;
-	    background-position: 10px 10px; 
-	    background-repeat: no-repeat;
-	    padding: 12px 20px 12px 40px;
-	    -webkit-transition: width 0.4s ease-in-out;
-	    transition: width 0.4s ease-in-out;
-	}
-
-	input[type=text]:focus {
-	    width: 100%;
-	}
-
-	.image1 {
-		padding: 5px;
-		width: 150px;
-		height: 150px;
-		margin: 5px;
-		border: 3px solid #555;
-		box-shadow: 10px 10px 5px #888888;
-	}
-
-	.imgbox {
-    	width:600px;
-    	text-align:center; 
-    	margin:auto;
-	}
-
-	.image2 {
-		padding: 5px;
-		width: 280px;
-		height: 280px;
-		margin: 5px;
-		border: 1px solid #555;
-		box-shadow: 10px 10px 5px #888888;
-	}
-
-	.imgbox1 {
-		width:600px;
-    	margin:auto;
-    }
-
-    .imgbox2 {
-    	float: right;
-    	margin-right:-50px;
-	}
-
-
-	.Head {
-		margin: 0px;
-		padding: 0px;
-		font-size: 25px;
-		font-weight: bold;
-	}
-
-	.Head2 {
-		margin: 0px;
-		padding: 0px;
-		font-size: 23px;
-		font-weight: bold;
-	}
-
-	.content {
-		margin: 0px;
-		padding: 0px;
-		font-size: 20px;
-	}
-
-	h1.superhead {
-		color:#1785B2;
-		text-align: center;
-		font-weight: bold;
-		font-family: 'Poppins', sans-serif;
-	}
-
-	div.container {
-		border:3px solid #555;
-		padding: 10px;
-		margin: 10px;
-	}
-
-	span {
-		color:#1785B2;
-		text-align: center;
-		font-weight: bold;
-		font-family: 'Open Sans Condensed', sans-serif;
-	}
-
-	.dropbtn {
-    	background-color: #1785B2;
-    	color: white;
-    	padding: 16px;
-    	font-size: 16px;
-    	border: none;
-    	cursor: pointer;
-	}
-
-	.dropbtn:hover, .dropbtn:focus {
-	    background-color: #1785B2;
-	}
-
-	.dropdown {
-	    position: relative;
-	    display: inline-block;
-	}
-
-	.dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f1f1f1;
-	    min-width: 160px;
-	    overflow: auto;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	    z-index: 1;
-	}
-
-	.dropdown-content p {
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
-	}
-
-	.dropdown p:hover {background-color: #f1f1f1}
-
-	.show {display:block;}
-
-	</style>
-	<body>
-	   <ul>
-	     <li><h1 class="ech1"><a href="index.html" class="elay">Finals Summary</a></h1></li>
-	     <li><h2 class="ECH2">Server-Side Technologies</h2></li>
-	     <li><a href="#C1">JAVA SERVLET</a></li>
-	     <li><a href="#C2">JSP</a></li>
-	     <li><a href="#C3">PHP</a></li>
-	     <li><a href="#C4">NODEJS</a></li>
-	     <br>
-	     <li>
-	     	<form style="margin-left:0%;padding:0px 16px;height:1000px;" >
-		  		<input type="text" name="search" placeholder="Search.." id="link_id">
-			</form>
-		</li>
-	   </ul>
-	<div class="maincontainer" style="margin-left:25%;padding:1px 16px;height:1000px;">
-	<div class="container" id="C1" >
-		<h1 class="superhead"> JAVA SERVLET </h1>
-		<div class="imgbox">
-			<img class="image1" src="img/JAVASERVLETS.jpg" alt="Java Servlets"> 
-			<img class="image1" src="img/PD.jpg" alt="Pavni Diwanji" >
-		</div>
-		<p class="Head">What is Servlet?</p><br>
-		<p class="content">A servlet is a Java programming language class used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers. For such applications, Java Servlet technology defines HTTP-specific servlet classes.</p>
-		<br>
-		<p class="content">A Java servlet is a Java program that extends the capabilities of a server. Although servlets can respond to any types of requests, they most commonly implement applications hosted on Web servers.Such Web servlets are the Java counterpart to other dynamic Web content technologies such as PHP and ASP.NET</p>
-	</div>
-	<div class="container" id="C2">
-		<h1 class="superhead"> JSP </h1>
-		<div class="imgbox">
-			<img class="image1" src="img/JSP.jpg" alt="Java Server Pages"> 
-			<img class="image1" src="img/SM.png" alt="Sun Microsystems" >
-		</div>
-		<p class="Head">What is JSP?</p><br>
-		<p class="content">Java Server Pages (JSP) is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based applications. JSP have access to the entire family of Java APIs, including the JDBC API to access enterprise databases.</p>
-		<br>
-		<p class="Head2">Syntax</p>
-		<p class="content">JSP pages use several delimiters for scripting functions. The most basic is <span><% ... %>, which encloses a JSP scriptlet</span>. A scriptlet is a fragment of Java code that is run when the user requests the page. Other common delimiters include <span><%= ... %> for expressions </span>, where the scriptlet and delimiters are replaced with the result of evaluating the expression, and <span> directives, denoted with <%@ ... %></span>.</p>
-		<br>
-		<div class="imgbox">
-			<img class="image2" src="img/jsp1.png" alt="Sample">
-				<p class="content">JSP page is translated into servlet by the help of JSP translator. The JSP translator is a part of webserver that is responsible to translate the JSP page into servlet. Afterthat Servlet page is compiled by the compiler and gets converted into the class file. Moreover, all the processes that happens in servlet is performed on JSP later like initialization, committing response to the browser and destroy.</p>
-		</div>
-		<br>
-		<p class="Head2">FEATURES </p>
-			<p class="content"> <span>Extension to Servlet:</span> JSP is Extension to Servlet, it have all the features of servlet and it have also implicit objects, predefined tags, expression language and Custom tags in JSP, that makes JSP easy to develop any application. </p>
-			<p class="content"> <span>Powerful:</span> These are internally Servlet, means consists byte code, so that all java features are applicable in case of jsp like robust, dynamic, secure, platform independent.</p>
-			<p class="content"> <span>Portable: </span>JSP tags will process and execute by the server side web container, So that these are browser independent and j2ee server independent. </p>
-			<p class="content"> <span>Flexible:</span> Allows to defined custom tags, the developer can fill conferrable to use any kind, framework based markup tags in JSP. </p>
-			<p class="content"> <span>Easy:</span> JSP is easy to learn, easy to understand and easy to develop. JSPs are more convenient to write than Servlets because they allow you to embed Java code directly into your HTML pages, in case of servlets you embed HTML inside of Java code. </p>
-			<p class="content"> <span>Less code than Servlet:</span> In JSP, we can use a lot of tags such as action tags, jstl, custom tags etc. that reduces the code. </p>
-	</div>
-	<div class="container" id="C3">
-		<h1 class="superhead"> PHP </h1>
-		<div class="imgbox">
-			<img class="image1" src="img/php.png" alt="php"> 
-			<img class="image1" src="img/rl.jpg" alt="Rasmus Lerdorf">
-		</div>
-		<p class="Head">What is PHP?</p><br>
-		<p class="content">PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
-		<br>
-		<div class="imgbox">
-			<img class="image2" src="img/php2.png" alt="Sample">
-			<div class="imgbox2">
-				<img class="image2" src="img/php3.png" alt="Sample">
+		<!-- all css here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animated.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+     
+        
+        <header>
+            <!-- Start Top Header -->
+            <div id="sticker" class="header-area">
+                <div class="container">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo/logo.png" alt=""></a>
+                        </div>
+                        <div class="collapse navbar-collapse main-menu" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active">
+                                    <a class="page-scroll" href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="#about">NOTES</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="#skills">ACTIVITIES</a>
+                                </li>		              	
+                                <li>
+                                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                                </li>	
+                                <li>
+                                    <a class="page-scroll" href="#reviews">TEAM</a>
+                                </li>		              	
+                                <li>
+                                    <a class="page-scroll" href="#blog">REFERENCES</a>
+                                </li>		              	              	              	
+                                <li>
+                                    <a class="page-scroll" href="#contact">ABOUT US</a>
+                                </li>		              			              
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div id="home" class="header-img">
+                <div class="header-overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-left">
+                            <div class="header-bottom">
+                                <h1>Web System and Technologies </h1>
+                                <h2 class="cd-headline clip is-full-width">
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible">School of Computing Information Sciences</b>
+                                        <b>Final Course Website</b>
+                                        <b>Web Development with no limits</b>
+                                    </span>
+                                </h2>
+                                <a href="#" class="btn custom-btn">LECTURE</a><span class="btn-2"><a href="#" class="btn custom-btn">FINALS</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<div id ="about" class="about-area page-scroll area-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="section-head">
+						    <h3>NOTES: </h3>
+						</div>
+					</div>
+				</div>
+				<div class="row second-row">
+				    <div class="col-md-3 col-sm-4">
+				        <div class="about-details text-center">
+				            <div class="single-about">
+				                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
+				                <h4>Java Web Servlets</h4>
+				                <p>INSERT</p>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="col-md-3 col-sm-4">
+				        <div class="about-details text-center">
+				            <div class="single-about">
+				                <a class="about-icon" href="#"><i class="fa fa-code"></i></a>
+				                <h4>Server-Side JavaScript</h4>
+				                <p>INSERT</p>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="col-md-3 col-sm-4">
+				        <div class="about-details text-center">
+				            <div class="single-about">
+				                <a class="about-icon" href="#"><i class="fa fa-laptop"></i></a>
+				                <h4>PHP</h4>
+				                <p>INSERT</p>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="col-md-3 hidden-sm">
+				        <div class="about-details text-center">
+				            <div class="single-about">
+				                <a class="about-icon" href="#"><i class="fa fa-desktop"></i></a>
+				                <h4>Web Application Security</h4>
+				                <p>INSERT</p>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+				<div class="row fix">
+				    <div class="col-md-6 col-sm-6">
+				        <div class="self-img">
+				            <a href="#"><img src="img/background/bg4.jpg" alt=""></a>
+				        </div>
+				    </div>
+				    <div class="col-md-6 col-sm-6">
+				        <div class="about-self">
+				            <div class="self-head">
+				                <h4 class="intro-head">Introduction</h4>
+				                <p>Hi, there! I am Richart. Currently working as a senior Website Developer. I am always passionate about Website Development, love to create modern Website & provide great client support.</p>
+				            </div>
+				            <div class="self-text">
+				                <ul>
+				                    <li>Date Of Birth : 12 Jan, 1987</li>
+				                    <li>Web Developer</li>
+				                    <li>State: New york</li>
+				                    <li>Country: California</li>
+                                    <li>Languages: English</li>
+                                    <li>Community :Team Leading</li>
+				                </ul>
+				            </div>
+				            
+				        </div>
+				    </div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container" id="C4">
-		<h1 class="superhead"> NODEJS </h1>
-		<div class="imgbox">
-				<img class="image1" src="img/njs.png" alt="node js">
-				<img class="image1" src="img/rd.jpg" alt="Ryan Dahl">
+
+		<div class="add-area area-margin">
+            <div class="head-overly"></div>
+		    <div class="container">
+		        <div class="row">
+		            <div class="add-text">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="add-content">
+                                <h2>When the best and the most expensive are not synonyms</h2>
+                            </div>
+                        </div>
+                        
+                        </div>
+		            </div>
+		        </div>
+		    </div>
 		</div>
-		<p class="Head">What is NodeJS?</p><br>
-		<p class="content">Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by <span>Ryan Dahl in 2009 </span> and its latest version is v0.10.36.</p><br>
-		<p class="content">Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML, to be run client-side by a JavaScript engine in the user's web browser. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.</p>
-		<br>
-		<div class="imgbox">
-			<img class="image2" src="img/njs1.png" alt="Sample">
-			<div class="imgbox2">
-				<img class="image2" src="img/njs2.png" alt="Sample">
-			</div>
+
+		<div id ="skills" class="skill-area page-scroll area-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="section-head">
+						    <h3>Skills.</h3>
+						</div>
+					</div>
+				</div>
+
+                <div class="row second-row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="skills-content">
+                            <div class="skills-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ex blanditiis consequuntur ab odio sed totam in rerum, illum amet facere ipsam quibusdam perferendis odit,Lorem ipsum dolor sit amet, consectetur perspiciatis quaerat </p>
+                            </div>
+                            <div class="skills-idea">
+                                <h4 class="intro-head">Work startegy</h4>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-lightbulb-o"></i>Idea :</a>I have an Special Idea Web Development</li>
+                                    <li><a href="#"><i class="fa fa-thumbs-o-up"></i>Approve :</a>Launched the idea for the website</li>
+                                    <li><a href="#"><i class="fa fa-pencil"></i>Brand Identify :</a>I have Web Development</li>
+                                    <li><a href="#"><i class="fa fa-line-chart"></i>Live Work : One who designs software</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                       <div class="skill-progress">
+                            <h4 class="web-ex">Web Master & Support Service</h4>
+                            <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s " role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                </div>
+                            </div>
+                            <span class="web-per wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">95%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <h4 class="web-ex">Web Design & Development</h4>
+                            <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                            </div>
+                            <span class="web-per bar-2 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <h4 class="web-ex">Social Marketing</h4>
+                            <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                </div>
+                            </div>
+                            <span class="web-per bar-3 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">80%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <h4 class="web-ex">Online Marketing (SEO & SEM)</h4>
+                            <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s " role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                </div>
+                            </div>
+                            <span class="web-per bar-4 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <h4 class="web-ex">HTML-CSS</h4>
+                            <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s " role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                </div>
+                            </div>
+                            <span class="web-per bar-5 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="skill-edu">
+                            <h4 class="intro-head">Education</h4>
+                            <!-- edu-result -->
+                            <div class="edu-result">
+                                <h5><span>2008</span>Master Degree</h5>
+                                <h6>  University Of Oxford</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, voluptates, reprehenderit! Tempore porro nesciunt, cupiditate quasi omnis. Quaerat.</p>
+                            </div>
+                            <!-- edu-result -->
+                            <div class="edu-result">
+                                <h5><span>2006</span>Bachelor Degree</h5>
+                                 <h6> University Of California</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, voluptates, reprehenderit! Tempore porro nesciunt, cupiditate quasi omnis. Quaerat.</p>
+                            </div>
+                            <!-- edu-result -->
+                            <div class="edu-result last-result">
+                               <h5><span>2002</span> Diploma Degree</h5>
+                                <h6>  University Of Hitech</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, voluptates, reprehenderit! Tempore porro nesciunt, cupiditate quasi omnis. Quaerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Experince -->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="skill-edu">
+                            <h4 class="intro-head">Expereince</h4>
+                            <!-- edu-result -->
+                            <div class="edu-result">
+                                <h5><span>2016</span>SEO Marketing</h5>
+                                <h6>Btrc It Consultant firm</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, voluptates, reprehenderit! Tempore porro nesciunt, cupiditate quasi omnis. Quaerat.</p>
+                            </div>
+                            <!-- edu-result -->
+                            <div class="edu-result">
+                                <h5><span>2010</span> Web Developer</h5>
+                                 <h6> HashTech It Consultant</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, voluptates, reprehenderit! Tempore porro nesciunt, cupiditate quasi omnis. Quaerat.</p>
+                            </div>
+                            <!-- edu-result -->
+                            <div class="edu-result last-result">
+                               <h5><span>2005</span>Coder</h5>
+                                <h6> Royal Computer Center</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, voluptates, reprehenderit! Tempore porro nesciunt, cupiditate quasi omnis. Quaerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Skills -->
+        <!-- Start counter -->
+        <div class="fun-fact-area fix area-margin">
+            <div class="head-overly"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="fun_text text-center">
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <span class="counter">1603</span>
+                            <h6>Happy Customers</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="fun_text text-center">
+                            <a href="#"><i class="fa fa-user"></i></a>
+                            <span class="counter">750</span>
+                            <h6>Success Projects</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="fun_text text-center">
+                            <a href="#"><i class="fa fa-clock-o"></i></a>
+                            <span class="counter">905</span>
+                            <h6>Website Managing</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="fun_text text-center">
+                            <a href="#"><i class="fa fa-question"></i></a>
+                            <span class="counter">5550</span>
+                            <h6>Article Wrote</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	    <div id="portfolio" class="portfolio-area fix area-padding">
+		    <div class="container">
+			    <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-head">
+                            <h3>Portfolio.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="awesome-portfolio">
+                            <div class="awesome-portfolio-menu">
+                                <ul>
+                                    <li class="filter" data-filter="all" >All Items</li>
+                                    <li class="filter" data-filter=".design">Design</li>
+                                    <li class="filter" data-filter=".web">Web Design</li>
+                                    <li class="filter" data-filter=".wordpress">Wordpress</li>
+                                    <li class="filter" data-filter=".php">Php</li>
+                                </ul>				
+                            </div>
+                            <div class="awesome-portfolio-content">
+                                <div class="single-awesome-portfolio mix all web wordpress">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/1.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Simply Random</h3>
+                                            <p>Logo Design</p>
+                                        </div>
+                                    </a>
+                                </div>
+								
+                                <div class="single-awesome-portfolio mix all design php">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/2.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Many Variations</h3>
+                                            <p>Photoshop</p>
+                                        </div>
+                                    </a>
+                                </div>
+								
+                                <div class="single-awesome-portfolio mix all web wordpress">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/3.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Classical Latin</h3>
+                                            <p>Wordpress</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-awesome-portfolio mix all design php">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/4.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Lorem Ipsum</h3>
+                                            <p>Design</p>
+                                        </div>
+                                    </a>
+                                </div>
+								
+                                <div class="single-awesome-portfolio mix all web design wordpress">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/5.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Simply Dummye</h3>
+                                            <p>Photoshop</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="single-awesome-portfolio mix all design php">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/6.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Present Moment</h3>
+                                            <p>Design</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="single-awesome-portfolio mix all design wordpress">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/7.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Making This The</h3>
+                                            <p>Developer</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="single-awesome-portfolio mix all web wordpress php">
+                                    <a href="#">
+                                        <div class="awesome-img"><img src="img/portfolio/8.jpg" alt="" /></div>
+                                        <div class="awesome-info">
+                                            <h3>Making This The</h3>
+                                            <p>Design</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>	
+                        </div>
+
+						</div>
+                </div>
+            </div>
+        </div>
+		
+		<div id="reviews" class="Reviews-area">
+            <div class="head-overly"></div>
+		    <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                        <div class="Reviews-content">
+                            <div class="testimonial-carousel item-indicator">
+                                <div class="single-testi text-center">
+                                    <div class="testi-img">
+                                        <img src="img/testimonial/test1.jpg" alt="">
+                                    </div>
+                                    <div class="testi-text text-center">
+                                        <h4>Marinelle Allegre</h4>
+                                        <span class="guest-rev">2152394@slu.edu.ph</span>
+                                    </div>
+                                </div>
+
+                                <div class="single-testi text-center">
+                                    <div class="testi-img">
+                                        <img src="img/testimonial/test2.jpg" alt="">
+                                    </div>
+                                    <div class="testi-text text-center">
+                                        <h4>John Martin Baladad</h4>
+                                        <span class="guest-rev">2153882@slu.edu.ph</a></span>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                                <div class="single-testi text-center">
+                                    <div class="testi-img">
+                                        <img src="img/testimonial/test3.jpg" alt="">
+                                    </div>
+                                    <div class="testi-text text-center">
+                                        <h4>Veronica Leonardo</h4>
+                                        <span class="guest-rev">2152028@slu.edu.ph</a></span>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+								<div class="single-testi text-center">
+                                    <div class="testi-img">
+                                        <img src="img/testimonial/test4.jpg" alt="">
+                                    </div>
+                                    <div class="testi-text text-center">
+                                        <h4>Denyse Rae Cayadi</h4>
+                                        <span class="guest-rev">2146790@slu.edu.ph</a></span>
+                                    </div>
+                                </div>
+								<div class="single-testi text-center">
+                                    <div class="testi-img">
+                                        <img src="img/testimonial/test5.jpg" alt="">
+                                    </div>
+                                    <div class="testi-text text-center">
+                                        <h4>Steven Mark Mangati</h4>
+                                        <span class="guest-rev">2166769@slu.edu.ph</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
 		</div>
-	</div>
-	</div>
-	<script>
-	/* When the user clicks on the button, 
-	toggle between hiding and showing the dropdown content */
-	function myFunction() {
-	    document.getElementById("myDropdown").classList.toggle("show");
-	}
 
-	// Close the dropdown if the user clicks outside of it
-	window.onclick = function(event) {
-	  if (!event.target.matches('.dropbtn')) {
-
-	    var dropdowns = document.getElementsByClassName("dropdown-content");
-	    var i;
-	    for (i = 0; i < dropdowns.length; i++) {
-	      var openDropdown = dropdowns[i];
-	      if (openDropdown.classList.contains('show')) {
-	        openDropdown.classList.remove('show');
-	      }
-	    }
-	  }
-	}
-	</script>
-	<!-- <script type="text/javascript">
-
-	    function link() {
-	        var link_s = document.getElementById('link_id').value;
-	        document.getElementById('link_str').innerHTML = link_s.link()
-	    }
-
-    </script> -->
-	</body>
+		<div id="blog" class="blog-area area-padding">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-12">
+                        <div class="section-head">
+                            <h3>Latest blog.</h3>
+                        </div>
+                    </div>
+		        </div>
+		        <div class="row">
+        			<div class="blog-item">
+        				<div class="col-md-4 col-sm-4 col-xs-12">
+        					<div class="single-blog">
+        						<div class="single-blog-img">
+        							<a href="#">
+        								<img src="img/blog/blog1.jpg" alt="">
+        							    <span class="overly"></span>
+        							</a>
+        						</div>
+        						<div class="blog-content">
+									<h4><a href="#">Post my imagine Items</a></h4>
+        							<p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+        						</div>
+        						<div class="blog-meta">
+        							<span class="date-type">
+        								<i class="fa fa-calendar"></i>2016-02-05 / 07:10:45
+        							</span>
+        							<span class="comments-type">
+										<i class="fa fa-comment-o"></i>
+										<a href="#">80 comments</a>
+									</span>
+        						</div>
+        					</div>
+        				</div>
+        				<!-- single blog -->
+        				<div class="col-md-4 col-sm-4 col-xs-12">
+        					<div class="single-blog">
+        						<div class="single-blog-img">
+        							<a href="#">
+        								<img src="img/blog/blog2.jpg" alt="">
+        							    <span class="overly"></span>
+        							</a>
+        						</div>
+        						<div class="blog-content">
+									<h4><a href="#">Discovering Client Stories</a></h4>
+        							<p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+        						</div>
+        						<div class="blog-meta">
+        							<span class="date-type">
+        								<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
+        							</span>
+        							<span class="comments-type">
+										<i class="fa fa-comment-o"></i>
+										<a href="#">130 comments</a>
+									</span>
+        						</div>
+        					</div>
+        				</div>
+        				<!-- single blog -->
+        				<div class="col-md-4 col-sm-4 col-xs-12">
+        					<div class="single-blog">
+        						<div class="single-blog-img">
+        							<a href="#">
+        								<img src="img/blog/blog3.jpg" alt="">
+        							    <span class="overly"></span>
+        							</a>
+        						</div>
+        						<div class="blog-content">
+									<h4><a href="#">The mystery of digital experience</a></h4>
+        							<p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+        						</div>
+        						<div class="blog-meta">
+        							<span class="date-type">
+        								<i class="fa fa-calendar"></i>2016-04-07 / 08:10:18
+        							</span>
+        							<span class="comments-type">
+										<i class="fa fa-comment-o"></i>
+										<a href="#">30 comments</a>
+									</span>
+        						</div>
+        					</div>
+        				</div>
+        				<!-- single blog -->
+        				<div class="col-md-4 col-sm-4 col-xs-12">
+        					<div class="single-blog">
+        						<div class="single-blog-img">
+        							<a href="#">
+        								<img src="img/blog/blog4.jpg" alt="">
+        							    <span class="overly"></span>
+        							</a>
+        						</div>
+        						<div class="blog-content">
+									<h4><a href="#">Startup – Always a New Beginning</a></h4>
+        							<p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+        						</div>
+        						<div class="blog-meta">
+        							<span class="date-type">
+        								<i class="fa fa-calendar"></i>2016-04-07 / 08:10:18
+        							</span>
+        							<span class="comments-type">
+										<i class="fa fa-comment-o"></i>
+										<a href="#">30 comments</a>
+									</span>
+        						</div>
+        					</div>
+        				</div>
+        				
+        				<div class="col-md-4 col-sm-4 col-xs-12">
+        					<div class="single-blog">
+        						<div class="single-blog-img">
+        							<a href="#">
+        								<img src="img/blog/blog5.jpg" alt="">
+        							    <span class="overly"></span>
+        							</a>
+        						</div>
+        						<div class="blog-content">
+									<h4><a href="#">Crafting unique designs</a></h4>
+        							<p> versions have evolved over the years, sometimes by accident, Various versions have evolved over the years, sometimes  have evolved over the years,</p>
+        						</div>
+        						<div class="blog-meta">
+        							<span class="date-type">
+        								<i class="fa fa-calendar"></i>2016-04-07 / 08:10:18
+        							</span>
+        							<span class="comments-type">
+										<i class="fa fa-comment-o"></i>
+										<a href="#">30 comments</a>
+									</span>
+        						</div>
+        					</div>
+        				</div>
+        				<!-- single blog -->
+        				<div class="col-md-4 col-sm-4 col-xs-12">
+        					<div class="single-blog">
+        						<div class="single-blog-img">
+        							<a href="#">
+        								<img src="img/blog/blog6.jpg" alt="">
+        							    <span class="overly"></span>
+        							</a>
+        						</div>
+        						<div class="blog-content">
+									<h4><a href="#">Let start your creative design with Adobe</a></h4>
+        							<p> versions have evolved over the years, sometimes by accident, Various versions have evolved over the years, sometimes  have evolved over the years,</p>
+        						</div>
+        						<div class="blog-meta">
+        							<span class="date-type">
+        								<i class="fa fa-calendar"></i>2016-04-07 / 08:10:18
+        							</span>
+        							<span class="comments-type">
+										<i class="fa fa-comment-o"></i>
+										<a href="#">30 comments</a>
+									</span>
+        						</div>
+        					</div>
+        				</div>
+        		
+        			</div>
+        		</div>
+		    </div>
+		</div>
+		
+		<div id="contact" class="contact-area area-padding">
+            <div class="head-overly"></div>
+		    <div class="container">
+                <div class="row contact-inner">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class="Cont-content">
+                            <h4 class="intro-head">Contact us</h4>
+                        </div>
+                        <div class="map-zone">
+                          
+                            <div class="map-area">
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-icons">
+                                    <h3>Contact info</h3>
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-map-marker"></i> <strong>Address</strong>
+                                             324 ready Street, New York.
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-mobile"></i> <strong>Phone</strong>
+                                            +880098765433
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i> <strong>Email</strong>
+                                            <a href="#">admin@usdtheme.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="icons-bottom text-center">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="contact-form">
+                            <div class="Cont-content">
+                                <h4 class="intro-head">Leave a massege</h4>
+                            </div>
+                            <div class="row contact-bg">
+                                <form action="mail.php" method="post">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <input name="name" type="text" placeholder="Name (required)" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <input name="email" type="email" placeholder="Email (required)" />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input name="subject" type="text" placeholder="Subject" />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                        <input type="submit" value="Submit Form" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
+		</div>
 	
-
-</html>
+            <div class="footer-area">
+               <div class="container">
+                   <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <div class="copyright text-center">
+                            <p>Copyright © 2018 <a> Web System and Technologies Course Website</a>.All Rights Reserved</p>
+                          </div>
+                       </div>
+                   </div>
+               </div>
+            </div> 
+            
+		<!-- all js here -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/animated.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/plugins.js"></script>
+		<!-- main js -->
+        <script src="js/main.js"></script>
+    </body>	
+	
+</html>			
