@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta name="description" content="HTTP">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poppins" rel="stylesheet">
+  		<title>Server-Side Technologies</title>
+	</head>
+	<style>
+
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poppins);
+
+	body {
+	    margin: 0;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	    background-color: #f1f1f1;
+	}
+	a.elay:hover {
+	 	color: blue !important;
+	 	background-color: #f1f1f1 !important;
+	}
+
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    width: 25%;
+	    background-color: #f1f1f1;
+	    position: fixed;
+	    height: 100%;
+	    overflow: auto;
+	}
+
+	li a {
+	    display: block;
+	    color: #000;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	li a.active {
+	    background-color: #4CAF50;
+	    color: white;
+	}
+
+	li a:hover:not(.active) {
+	    background-color: #555;
+	    color: white;
+	}
+	h2.ECH2 {
+		color: #1785B2;
+		text-indent: 18px;
+		font-size: 20px;
+		padding:0px 0px 30px 0px;
+		margin:0px;
+	}
+
+	h1.ech1 {
+		padding:0px;
+		margin:0px;
+	}
+	input[type=text] {
+
+	    width: 130px;
+	    height: 40px;
+	    box-sizing: border-box;
+	    border: 2px solid #555;
+	    border-radius: 4px;
+	    font-size: 16px;
+	    background-color: white;
+	    background-image: url('img/search.png');
+	    background-size: 18px 18px;
+	    background-position: 10px 10px; 
+	    background-repeat: no-repeat;
+	    padding: 12px 20px 12px 40px;
+	    -webkit-transition: width 0.4s ease-in-out;
+	    transition: width 0.4s ease-in-out;
+	}
+
+	input[type=text]:focus {
+	    width: 100%;
+	}
+
+	.image1 {
+		padding: 5px;
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		border: 3px solid #555;
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+	.imgbox {
+    	width:600px;
+    	text-align:center; 
+    	margin:auto;
+	}
+
+	.image2 {
+		padding: 5px;
+		width: 280px;
+		height: 280px;
+		margin: 5px;
+		border: 1px solid #555;
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+	.imgbox1 {
+		width:600px;
+    	margin:auto;
+    }
+
+    .imgbox2 {
+    	float: right;
+    	margin-right:-50px;
+	}
+
+
+	.Head {
+		margin: 0px;
+		padding: 0px;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.Head2 {
+		margin: 0px;
+		padding: 0px;
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.content {
+		margin: 0px;
+		padding: 0px;
+		font-size: 20px;
+	}
+
+	h1.superhead {
+		color:#1785B2;
+		text-align: center;
+		font-weight: bold;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	div.container {
+		border:3px solid #555;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	span {
+		color:#1785B2;
+		text-align: center;
+		font-weight: bold;
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.dropbtn {
+    	background-color: #1785B2;
+    	color: white;
+    	padding: 16px;
+    	font-size: 16px;
+    	border: none;
+    	cursor: pointer;
+	}
+
+	.dropbtn:hover, .dropbtn:focus {
+	    background-color: #1785B2;
+	}
+
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f1f1f1;
+	    min-width: 160px;
+	    overflow: auto;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	}
+
+	.dropdown-content p {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
+
+	.dropdown p:hover {background-color: #f1f1f1}
+
+	.show {display:block;}
+
+	</style>
+	<body>
+	   <ul>
+	     <li><h1 class="ech1"><a href="index.html" class="elay">Finals Summary</a></h1></li>
+	     <li><h2 class="ECH2">Server-Side Technologies</h2></li>
+	     <li><a href="#C1">JAVA SERVLET</a></li>
+	     <li><a href="#C2">JSP</a></li>
+	     <li><a href="#C3">PHP</a></li>
+	     <li><a href="#C4">NODEJS</a></li>
+	     <br>
+	     <li>
+	     	<form style="margin-left:0%;padding:0px 16px;height:1000px;" >
+		  		<input type="text" name="search" placeholder="Search.." id="link_id">
+			</form>
+		</li>
+	   </ul>
+	<div class="maincontainer" style="margin-left:25%;padding:1px 16px;height:1000px;">
+	<div class="container" id="C1" >
+		<h1 class="superhead"> JAVA SERVLET </h1>
+		<div class="imgbox">
+			<img class="image1" src="img/JAVASERVLETS.jpg" alt="Java Servlets"> 
+			<img class="image1" src="img/PD.jpg" alt="Pavni Diwanji" >
+		</div>
+		<p class="Head">What is Servlet?</p><br>
+		<p class="content">A servlet is a Java programming language class used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers. For such applications, Java Servlet technology defines HTTP-specific servlet classes.</p>
+		<br>
+		<p class="content">A Java servlet is a Java program that extends the capabilities of a server. Although servlets can respond to any types of requests, they most commonly implement applications hosted on Web servers.Such Web servlets are the Java counterpart to other dynamic Web content technologies such as PHP and ASP.NET</p>
+	</div>
+	<div class="container" id="C2">
+		<h1 class="superhead"> JSP </h1>
+		<div class="imgbox">
+			<img class="image1" src="img/JSP.jpg" alt="Java Server Pages"> 
+			<img class="image1" src="img/SM.png" alt="Sun Microsystems" >
+		</div>
+		<p class="Head">What is JSP?</p><br>
+		<p class="content">Java Server Pages (JSP) is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based applications. JSP have access to the entire family of Java APIs, including the JDBC API to access enterprise databases.</p>
+		<br>
+		<p class="Head2">Syntax</p>
+		<p class="content">JSP pages use several delimiters for scripting functions. The most basic is <span><% ... %>, which encloses a JSP scriptlet</span>. A scriptlet is a fragment of Java code that is run when the user requests the page. Other common delimiters include <span><%= ... %> for expressions </span>, where the scriptlet and delimiters are replaced with the result of evaluating the expression, and <span> directives, denoted with <%@ ... %></span>.</p>
+		<br>
+		<div class="imgbox">
+			<img class="image2" src="img/jsp1.png" alt="Sample">
+				<p class="content">JSP page is translated into servlet by the help of JSP translator. The JSP translator is a part of webserver that is responsible to translate the JSP page into servlet. Afterthat Servlet page is compiled by the compiler and gets converted into the class file. Moreover, all the processes that happens in servlet is performed on JSP later like initialization, committing response to the browser and destroy.</p>
+		</div>
+		<br>
+		<p class="Head2">FEATURES </p>
+			<p class="content"> <span>Extension to Servlet:</span> JSP is Extension to Servlet, it have all the features of servlet and it have also implicit objects, predefined tags, expression language and Custom tags in JSP, that makes JSP easy to develop any application. </p>
+			<p class="content"> <span>Powerful:</span> These are internally Servlet, means consists byte code, so that all java features are applicable in case of jsp like robust, dynamic, secure, platform independent.</p>
+			<p class="content"> <span>Portable: </span>JSP tags will process and execute by the server side web container, So that these are browser independent and j2ee server independent. </p>
+			<p class="content"> <span>Flexible:</span> Allows to defined custom tags, the developer can fill conferrable to use any kind, framework based markup tags in JSP. </p>
+			<p class="content"> <span>Easy:</span> JSP is easy to learn, easy to understand and easy to develop. JSPs are more convenient to write than Servlets because they allow you to embed Java code directly into your HTML pages, in case of servlets you embed HTML inside of Java code. </p>
+			<p class="content"> <span>Less code than Servlet:</span> In JSP, we can use a lot of tags such as action tags, jstl, custom tags etc. that reduces the code. </p>
+	</div>
+	<div class="container" id="C3">
+		<h1 class="superhead"> PHP </h1>
+		<div class="imgbox">
+			<img class="image1" src="img/php.png" alt="php"> 
+			<img class="image1" src="img/rl.jpg" alt="Rasmus Lerdorf">
+		</div>
+		<p class="Head">What is PHP?</p><br>
+		<p class="content">PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
+		<br>
+		<div class="imgbox">
+			<img class="image2" src="img/php2.png" alt="Sample">
+			<div class="imgbox2">
+				<img class="image2" src="img/php3.png" alt="Sample">
+			</div>
+		</div>
+	</div>
+	<div class="container" id="C4">
+		<h1 class="superhead"> NODEJS </h1>
+		<div class="imgbox">
+				<img class="image1" src="img/njs.png" alt="node js">
+				<img class="image1" src="img/rd.jpg" alt="Ryan Dahl">
+		</div>
+		<p class="Head">What is NodeJS?</p><br>
+		<p class="content">Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by <span>Ryan Dahl in 2009 </span> and its latest version is v0.10.36.</p><br>
+		<p class="content">Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML, to be run client-side by a JavaScript engine in the user's web browser. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.</p>
+		<br>
+		<div class="imgbox">
+			<img class="image2" src="img/njs1.png" alt="Sample">
+			<div class="imgbox2">
+				<img class="image2" src="img/njs2.png" alt="Sample">
+			</div>
+		</div>
+	</div>
+	</div>
+	<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	    document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+
+	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	    var i;
+	    for (i = 0; i < dropdowns.length; i++) {
+	      var openDropdown = dropdowns[i];
+	      if (openDropdown.classList.contains('show')) {
+	        openDropdown.classList.remove('show');
+	      }
+	    }
+	  }
+	}
+	</script>
+	<!-- <script type="text/javascript">
+
+	    function link() {
+	        var link_s = document.getElementById('link_id').value;
+	        document.getElementById('link_str').innerHTML = link_s.link()
+	    }
+
+    </script> -->
+	</body>
+	
+
+</html>
