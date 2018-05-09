@@ -1,0 +1,193 @@
+Cascading Style Sheets
+- Language used to specify the presentation aspects (i.e. layout and formatting of structurally marked up (e.g. HTML, XML, XHTML, SVG, etc.)
+document).
+- Developed by Hakon Wium Lie (HTML Cascading Style Sheets / CHSS) and Bert Bos (Stream-based Style Sheet Proposal / SSP)
+- Versions:
+* CSS 1, CSS 2, CSS 2.1, CSS 3 (structural semantic markup / modularizes CSS 2.1)
+- CSS Rules
+* Selectors
+- Universal selector
+*{
+}
+- Type
+p{
+}
+- Grouping
+h1,h2,h3{
+}
+- ID
+#nav{
+}
+- Class
+.hide{
+}
+- Descendant
+div.content em{
+}
+- Child
+div.content > em{
+}
+- Adjacent sibling
+h1 + p{
+}
+- Attribute acronym
+div[class=note] {
+}
+- Pseudo classes
+- First child pseudo class (:first-child)
+li:first-child{
+}
+- Link pseudo class (:link, :visited)
+a:link, a:visited{
+}
+- Dynamic pseudo class (:hover, :active, :focus)
+ul.menu > li{
+}
+ul.menu > li:hover{
+}
+* Declaration Block
+- Properties
+- Visual, aural, paged, interactive
+- Margins, borders, and padding
+- Colors and background
+- Fonts
+- Text formatting
+- Lists and tables
+- Positioning and dimensions
+- Miscellaneous
+- Values
+- Keywords
+- Numbers
+- Length
+* Length units: em ex px in an mm pt pc
+ relative absolute
+* Percentages
+* Colors
+* Strings
+* URLs
+* Counters
+* Initial values, inherited values, !important rules
+* Specified, computed, used, and actual values
+* By origin and importance
+- User important declarations
+- Author important declarations
+- Author normal declarations
+* By specificity
+- Inline styles (1) or not (0)
+- Number of ID attributes in selector
+- Number of other attributes and pseudo-classes in selector
+- Number of element names and pseudo-elements in selector
+* By order
+* CSS comments /* */
+Client-side web scripting
+- Allows programs (i.e. scripts) to be downloaded from a web server and executed in the client environment (e.g. browser)
+- Common client-side scripting technologies
+* JavaScript, ECMAScript, Jscript
+* VBScript, ActionScript
+o Java Applets, ActiveX Controls, Flash Animations, Microsoft Silverlight, Adobe Integrated Runtime (Adobe AIR)
+- Common uses:
+* Dynamic (X)HTML
+- Page embellishments, visual “effects”, content generation and manipulation, user interaction, document and page
+navigation
+* Client-side form data validation
+* Asynchronous content retrieval, RIA Technologies (e.g. AJAX).
+- Common issues:
+* Browser support
+- No scripting support
+- Scripting disabled
+- Plugin availability
+* Version incompatibilities, non-standard implementations
+* Capabilities restrictions
+- Scripting languages are not for general-purpose programming
+- E.g. javascript is restricted by the sandbox execution model and the same origin policy
+* Security risks
+- Browser implementation defects (e.g. buffer overflows)
+- E.g. javascript, cross-site scripting (XSS) or cross-site request forgery (XSRF) issues
+- Malicious ActiveX controls
+Javascript
+- Developed circa 1995 by Brendan Eich at Netscape Communications as the scripting language for the Netscape Navigator Browser
+- Formerly called Mocha, then LiveScript, then JavaScript
+- Standardized by ECMA International as ECMAScript
+- Latest version: JavaScipt 1.8.1, ECMAScript 5 [ECMA-262 5th Edition]
+- Common version: JavaScript 1.5, Jscript 5.5, ECMAScript v3 [ECMA-262 3
+rd Edition]
+- JavaScript Frameworks:
+* script.aculo.us, jQuery, MooTools, Prototype, Dojo Toolkit, etc.
+- Linked/Embedded in web pages using the <script> element
+* Linked:
+<script type=”text/javascript” src=”scripts.js” /> </script>
+* Embedded (either in the <head> or the < body> element)
+<script type=”text/javascript”>
+<!--hide script from non-JavaScript browsers…
+/* script code goes here */
+// end of script hiding … -->
+</script>
+<noscript>
+…content to show when scripting not available
+</noscript>
+- JavaScript + DOM/BOM + CSS + (X)HTML = DHTML
+- JavaScript code in (X)HTML pages can be executed “on the fly” as the document is rendered (i.e. code outside of functions executes as the
+<script> element is encountered); in most cases though, JavaScript code is executed in response to document events (e.g. clicking a page
+element).
+- Basic language features:
+* Paradigm:
+- Object-oriented (prototype-based), functional, imperative scripting language
+* Java-/C-like syntax
+- Implicit semicolon insertion for statement termination
+- Identifiers are alphanumeric, _, and $ characters
+- Single-line (//) or block (/**/) comments
+* Type system and variable scoping rules:
+- Dynamic (aka loose or weak) typing
+- Global (aka top-level) or local scopes
+- Data types:
+- Primitive types
+* Numbers (decimal, hexadecimal notation)
+* Booleans (true, false)
+* Strings (Single or Double quote delimited)
+* Undefined and Null
+- Composite (object) types
+* Core JavaScript Objects
+- Object, Number, Boolean, String, Date, Math, Global, RegExp, Error
+- Arrays (Array)
+- Functions (Function, Arguments)
+o DOM Objects
+- Anchor, Applet, Attr, Comment, DOMException, DOMImplementation,
+DocumentFragment, Element, Event, Form, Image, Input, Layer, Link,
+Node, Option, Select, Style, Text, TextArea
+- Keywords
+- break, case, catch, continue, default, delete, do, else, finally, for, function,
+if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, with
+- Reserved words (currently unused)
+- abstract, Boolean, byte, char, class, const, debugger, float
+- Statements and control structures
+- var
+* Used to declare global/local scoped variables
+- if-else
+* Condition expressions having values of 0, “”, null, and undefined evaluate to false
+- switch-case-default-break
+* allows any expression type to be used as the switch expression
+* case labels may be of different types
+* case labels may be expressions
+* case execution falls-through, unless terminated by a break
+- while, do-while, for, for-in, break, continue
+* for while and do-while, false condition expressions similar to if-else
+* for-in used for property enumeration
+* allows labeled break/continue
+- try-catch-finally, throw
+* throw and catch can handle any expression type
+- function, return
+* JavaScript functions are similar to Java methods except for the following differences:
+- No return value type is specified, and return is optional within the function body
+- Functions may return a value on one invocation and not return a value (i.e. have an
+undefined return value) on another invocation
+- Functions may return different types of values on different invocations
+- Function parameters are dynamically typed
+- Functions can be invoked with an arbitrary number of arguments, regardless of the actual
+parameters specified in the function definition (the Arguments object can be used to
+access unnamed arguments passed to the function invocation)
+- Functions are first-class objects
+* Functions can be invoked as global functions (i.e. as methods of the Global object) as methods of
+specific objects, or as object constructors
+- with
+* Used to access object properties without having to explicitly qualify the property with the object name
+(serves as shorthand notation for accessing object properties, at the expense of program readability)

@@ -1,0 +1,73 @@
+Hypertext Markup Language
+- Language used to markup documents (i.e. web pages) in the WWW
+* Structure (and content)
+* Presentation (mostly deprecated in favor of style sheets)
+
+- Versions
+* HTML 2.0, 3.2, 4.0
+* HTML 4.01
+- Strict – deprecated
+- Transitional – still make use the deprecated
+- Frameset – using frames
+* HTML 5 (working draft)
+- Head
+* title, base, link, meta, style, script
+- Body
+* Grouping elements (div, span)
+* Headings (h1 – h6)
+* Paragraphs, line breaks, horizontal rules (p , br , hr)
+* Lists (ul, ol, li, dl, dt, dd, dir, menu)
+* Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col)
+* Structured text
+- Phrase elements (em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym)
+- Quotations (blockquote, q)
+- Subscripts and superscripts (sub, sup)
+- Preformatted texts (pre)
+* Font styles and alignments (tt, i, b, big, small, strike, s, u, font, basefont, center)
+* Document changes (ins, del)
+* Links and anchors (a)
+* Objects, images, applets (object, img, param, applet)
+* Scripts (script, noscript)
+* Miscellaneous (address, bdo)
+* Frames, noframes, iframe
+* Frameset (for frameset DTD)
+
+Extensible Hypertext Markup Language
+- Reformulation of HTML in XML
+- Versions
+* XHTML 1.0
+* XHTML 1.1
+* XHTML 1.2
+* XHTML 2.0
+* XHTML 5 (working draft)
+- Basic differences between HTML and XHTML
+* All elements have beginning and ending tags
+* All elements are nested properly
+* Elements and attribute names are case sensitive (lowercase)
+* Attribute values are quoted)
+* Attribute values cannot be minimized
+- XHTML Doc. Components
+* Document Type Declaration (DOCTYPES)
+- HTML 4.01 DOCTYPES
+- XHTML 1.0 DOCTYPES
+* Elements
+- Tags
+- Content (elements)
+- Attributes
+- id, class, title, alt, lang, intrinsic event attributes (e.g. onClick)
+- Character Entity References
+- &lt; &gt; &amp; &nbsp; &shy;
+- XHTML Elements
+* Block-level and inline (aka text-level) elements
+- Block-level elements represent “larger” document structures and may contain inline & other block level elements
+- Inline elements contain only data and other inline elements
+- Author Styles
+* External style sheets (recommended)
+* Embedded styles
+* Inline styles
+- User Style
+- User Agent Style (example default style sheet for HTML 4)
+Quirks
+- Older ways of rendering documents
+Standards
+- Following the specification by W3C for HTML, CSS

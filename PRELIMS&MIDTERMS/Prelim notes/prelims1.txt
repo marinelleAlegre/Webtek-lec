@@ -1,0 +1,35 @@
+Overview:
+HTTP- hypertext protocol
+HTML- hypertext markuo language
+Sir Tim Berners Lee- Father of modern internet(1989)_HTTP, HTML, URL
+
+WWW- collection of web resources and applications which is an access to the web resources(text-base) through Internet.
+Scietific communication(text-base browsers)
+
+WWW uses Internet(Internetwork)
+Inter- across boundaries
+network- connection
+
+Application
+-client-sever
+
+Forms:
+1. Web server - Host the web resources
+	      - Waits for clients to request for the hosting
+2. Web client - browser
+	      -request for those servers
+
+"Spider"
+- application that crowls the web
+
+Internet(Intrasfructure)
+-host
+-media-wireless
+-protocols-standard that the host must follow to Interact for the media
+
+Gopher:server
+-menus to get access to what you are looking
+
+WAIS server
+-different information that are host in different_________
+a

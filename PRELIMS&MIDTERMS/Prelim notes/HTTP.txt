@@ -1,0 +1,54 @@
+HTTP runs on top of the Internet Protocol Suite (TCP/IP). 
+The port 80 is the default port for TCP and port 443 for HTTPS.
+
+
+HTTP resources are being identified with the use of HTTP URLs.
+- 
+
+Scheme (http: or https:)
+- authentication information
+
+-Host and port number
+- Path to the source
+
+- scheme-specific parameters
+
+- 
+
+URL-encoded query
+
+- fragment identifier
+
+
+HHTP is based on a client-server structure
+Clients (user agents) : 
+
+-Web browsers
+
+-Web crawlers
+
+-Email clients
+Servers :
+
+- Gateways
+
+- tunnels
+
+- proxy servers
+
+- origin servers
+
+
+HTTP make use of a request-response standard protocol
+
+- The client will have to send an HTTP request message to the server
+
+- Ther server will now process the request and will reply with an HTTP 
+response message
+
+
+HTTP is considered as a stateless communications protocol
+
+- The servers do not contain information between requests about the 
+clients
+

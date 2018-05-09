@@ -1,0 +1,60 @@
+Method Properties:
+Safe Methods
+	-get, head, options, trace
+	-client does not request, and does not expect, any state change on read only
+
+Idemponent Methods
+	-get, head, options, trace, put, delete
+	-intended effect on the server of multiple identical requests with the method is the same as the effect of a single such request
+
+Cacheable Methods
+	-Get, head, post
+	-indicates that the response to a method is allowed to be stored for future reuse
+
+HTTP Status Code
+*Informational(1xx)
+    -100 continue
+    -101 Switching Protocols
+*Success(2xx)
+    -200-OK
+    -201 Created
+    -202 Accepted
+    -203 Non-Authoritative Information
+    -204 No Content
+    -205 Reset Content
+    -206 Partial Content
+*Redirection(3xx)
+    -300 Multiple Choices
+    -301 Moved Permanently
+    -302 Found
+    -303 See Other
+    -304 Not Modified
+    -305 Use Proxy
+    -306 (Unused)
+    -307 Temporary Redirect
+*Client Error(4xx)
+-400 Bad Request
+-401 Unauthorized
+-402 payment Required
+-403 Forbidden
+-404 Not Found
+-405 Method Not Allowed
+-406 Proxy Authentication Required
+-407 Request Timeout
+-408 Conflict
+-409 Gone
+-410 Length Required
+-411 Precondition Failed
+-412 Payload Too Large
+-413 URL Too Long
+-414 Unsupported Media Type
+-415 Request Range Not Satisfied
+-416 Expectation Failed
+-417 Upgrade required
+*Server Error(5xx)
+-500 Internal Server
+-501 Not Implemented
+-502 Bad Gateway
+-503 Service Unavailable
+-504 Gateway Timeout
+-505 HTTP Version Not Supported
