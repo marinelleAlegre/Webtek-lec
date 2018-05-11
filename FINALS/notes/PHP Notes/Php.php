@@ -16,7 +16,7 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2><center>PHP</center></h2>
+							<h2><center><a href="Php.php">PHP</center></h2>
 							<p>Hypertext Preprocessor a server side <br/>
 							scripting language for Web Development.</p>
 						</header>
