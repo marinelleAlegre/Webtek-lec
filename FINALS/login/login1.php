@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--<link href = "styles/style.css" rel = "stylesheet"/-->
         <title>WEB SYSTEMS AND TECHNOLOGIES</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--link rel="icon" type="image/png" href="images/icons/favicon.ico"/-->
+        <link rel="icon" type="image/png" href="../img/logo.png">
         <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -18,6 +17,7 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 <body>
+
 <?php
     require('../db.php');
     session_start();
@@ -37,7 +37,7 @@
        
        if($rows == 1){
             $_SESSION['username'] = $username;
-            header("Location: ../index.php"); // Redirect user to index.php
+            header("Location: ../userIndex.php"); // Redirect user to index.php
        } else {
             echo '<script type="text/javascript">window.alert("Username / password is incorrect. Please Try Again");';
             echo 'window.location.href="login1.php" </script>';

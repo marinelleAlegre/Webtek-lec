@@ -98,7 +98,12 @@
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
 				                <h4>Java Web Servlets</h4>
-                                <p>SHORT DESCRIPTION DITO</p>
+                                <p>Servlet is a JAVA programming language class used to extend 
+                                    the capabilities of server that host applications accessed by 
+                                    means of a request-response programming model. 
+                                    Servlets can respond to any type of request, 
+                                    they are commonly used to extend the applications hosted 
+                                    by web servers.</p>
 				            </div>
 				        </div>
 				    </div>
@@ -106,8 +111,14 @@
 				        <div class="about-details text-center">
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-code"></i></a>
-				                <h4>Server-Side JavaScript</h4>
-                                <p>SHORT DESCRIPTION DITO</p>
+				                <h4>Server-Side JavaScript (Node.JS)</h4>
+                                <p>Node.js is a runtime environment for building fast and scalable network applications
+                                 easily with Javascript. Node.js uses an event driven, non-blocking I/O model that makes it 
+                                 lightweight and efficient, perfect for data intensive real time 
+                                 applications that run across distributed devices. 
+                                 It provides a rich library of various JavaScript 
+                                 modules which simplifies the development of web 
+                                 applications using Node.js to a great extent.</p>
 				            </div>
 				        </div>
 				    </div>
