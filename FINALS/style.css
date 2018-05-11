@@ -151,6 +151,12 @@ header {
   background-position: center center;
   background-size: cover;
 }
+.user {
+  background-image: url(img/background/bg8.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .navbar-header a.navbar-brand {
   display: inline-block;
   padding: 20px 0;
@@ -237,54 +243,6 @@ header .row {
   width: 100%;
   left: 0;
   height: 100%;
-}
-.custom-btn:hover {
-  color: #fff;
-  border: 1px solid #2bcdc1;
-}
-.custom-btn {
-  background: #fff none repeat scroll 0 0;
-  border-radius: 1px;
-  color: #333;
-  display: inline-block;
-  letter-spacing: 2px;
-  margin-top: 20px;
-  padding: 12px 15px;
-  position: relative;
-  transition: all 0.4s ease 0s;
-  width: 150px;
-  z-index: 1;
-}
-.btn-2 {
-  margin-left: 30px;
-}
-.custom-btn::before {
-  background: #2bcdc1;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  width:0%;
-  opacity: 0;
-  transition: 0.4s
-}
-.custom-btn::after {
-  background: #2bcdc1;
-  content: "";
-  height: 100%;
-  right: 0;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  width: 0%;
-  opacity: 0;
-  transition: 0.4s
-}
-.custom-btn:hover::before,.custom-btn:hover::after  {
-  opacity: 1;
-  width: 50%;
 }
 .header-area {
   background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
@@ -971,7 +929,7 @@ header .row {
 }
 /*----------------------------------------*/
 /* 10.Contact CSS
-/*----------------------------------------*/
+/*----------------------------------------
 .contact-area {
   background: url(img/background/bg6.jpg);
   background-size: cover;
@@ -1109,7 +1067,7 @@ header .row {
   line-height: 37px;
   margin: 0 3px;
   width: 40px;
-}
+}*/
 /*----------------------------------------*/
 /*  11.Fotter  CSS
 /*----------------------------------------*/

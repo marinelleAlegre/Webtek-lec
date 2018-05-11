@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -24,9 +24,11 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-     
+     <!--?php
+        include('../sessionTimeout.php');
+    ?-->
         
-        <header>
+        <header class="user">
             <!-- Start Top Header -->
             <div id="sticker" class="header-area">
                 <div class="container">
@@ -53,10 +55,14 @@
                                 </li>		              	
                                 <li>
                                     <a class="page-scroll" href="#">PHP</a>
-                                </li>			              	
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="#">JSP</a>
+                                </li>   			              	
                                 <li>
                                     <a class="page-scroll" href="#">Quiz</a>
-                                </li>		              	              	              	
+                                </li>
+                                <!--DROPDOWN LIST dito (name ng user) then logout-->		              	              	              	
                                 <li>
                                     <a class="page-scroll" href="../FINALS/logout.php">Logout</a>
                                 </li>		              			              
@@ -79,7 +85,6 @@
                                         <b>Web Development with no limits</b>
                                     </span>
                                 </h2>
-                                <!--a href="#" class="btn custom-btn">LECTURE</a><span class="btn-2"><a href="#" class="btn custom-btn">FINALS</a></span-->
                             </div>
                         </div>
                     </div>
@@ -101,8 +106,6 @@
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
 				                <h4>Java Web Servlets</h4>
-				                <p>- A servlet is a Java programming language class used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers. For such applications, Java Servlet technology defines HTTP-specific servlet classes</p>
-								<p>
 				            </div>
 				        </div>
 				    </div>
@@ -111,9 +114,6 @@
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-code"></i></a>
 				                <h4>Server-Side JavaScript</h4>
-				                <p>- Java Server Pages (JSP) is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based applications. JSP have access to the entire family of Java APIs, including the JDBC API to access enterprise databases.
-								<p>
-								</p>
 				            </div>
 				        </div>
 				    </div>
@@ -122,59 +122,35 @@
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-laptop"></i></a>
 				                <h4>PHP</h4>
-				                <p>- PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML</p>
 				            </div>
 				        </div>
 				    </div>
-				    <div class="col-md-3 hidden-sm">
-				        <div class="about-details text-center">
-				            <div class="single-about">
-				                <a class="about-icon" href="#"><i class="fa fa-desktop"></i></a>
-				                <h4>Web Application Security</h4>
-				                <p>- Web application security is a branch of Information Security that deals specifically with security of websites, web applications and web services. At a high level, Web application security draws on the principles of application security but applies them specifically to Internet and Web systems</p>
-				            </div>
-				        </div>
-				    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="about-details text-center">
+                            <div class="single-about">
+                                <a class="about-icon" href="#"><i class="fa fa-file-code-o"></i></a>
+                                <h4>Nodes.JS</h4>
+                            </div>
+                        </div>
+                    </div>
 				</div>
-				<div class="row second-row">
-				    <div class="col-md-3 col-sm-4">
-				        <div class="about-details text-center">
-				            <div class="single-about">
-				                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
-				                <h4>NodesJs</h4>
-				                <p>- Node.js is a runtime environment for building fast and scalable network applications easily with JavaScript. Node.js uses an event driven, non blocking I/O model that makes it lightweight and efficient, perfect for data intensive real time applications that run across distributed devices. It  provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</p>
-				            </div>
-				        </div>
-				    </div>
-				<div class="row fix">
-				    <div class="col-md-6 col-sm-6">
-				        <div class="self-img">
-				            <a href="#"><img src="img/background/bg4.jpg" alt=""></a>
-				        </div>
-				    </div>
-				    <div class="col-md-6 col-sm-6">
-				        <div class="about-self">
-				            <div class="self-head">
-				                <h4 class="intro-head">Introduction</h4>
-				                <p>INSERT</p>
-				            </div>
-				            <div class="self-text">
-				                <ul>
-				                    <li>insert</li>
-				                    <li>insert</li>
-				                    <li>insert</li>
-				                    <li>insert</li>
-                                    <li>insert</li>
-                                    <li>insert</li>
-				                </ul>
-				            </div>
-				            
-				        </div>
-				    </div>
-				</div>
-			</div>
 		</div>
-
+        <div class="add-area area-margin">
+            <div class="head-overly"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="add-text">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="add-content">
+                                <h2><center>Web Development with no limits</center></h2>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             <div class="footer-area">
                <div class="container">
                    <div class="row">

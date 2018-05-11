@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -125,7 +125,7 @@
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-laptop"></i></a>
 				                <h4>PHP</h4>
-                                <p>SHORT DESCRIPTION DITO</p>
+                                <p>PHP started out as a small open source project that evolved as more and more people found out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994.</p>
 				            </div>
 				        </div>
 				    </div>
@@ -133,7 +133,7 @@
                     <div class="col-md-3 col-sm-4">
                         <div class="about-details text-center">
                             <div class="single-about">
-                                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
+                                <a class="about-icon" href="#"><i class="fa fa-file-code-o"></i></a>
                                 <h4>NodesJs</h4>
                                 <p>- Node.js is a runtime environment for building fast and scalable network applications easily with JavaScript. Node.js uses an event driven, non blocking I/O model that makes it lightweight and efficient, perfect for data intensive real time applications that run across distributed devices. It  provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</p>
                             </div>
