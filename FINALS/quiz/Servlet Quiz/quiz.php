@@ -191,8 +191,8 @@
 
 <br></br>
 <div class="clearfix">
-	<button type="button" class="Submitbtn">Submit Quiz</button>
-	<button type="button" class="cancelbt">Cancel</button>
+	<button type="button" class="Submitbtn" value="Submit">Submit Quiz</button>
+	<button type="button" class="cancelbt" value="Cancel">Cancel</button>
 </form>
 </body>
 </html>
