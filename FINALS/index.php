@@ -88,7 +88,7 @@
 				<div class="row">
 					<div class="col-md-12 col-sm-12">
 						<div class="section-head">
-						    <h3>NOTES: </h3>
+						    <h3>OVERVIEW: </h3>
 						</div>
 					</div>
 				</div>
@@ -111,14 +111,12 @@
 				        <div class="about-details text-center">
 				            <div class="single-about">
 				                <a class="about-icon" href="#"><i class="fa fa-code"></i></a>
-				                <h4>Server-Side JavaScript (Node.JS)</h4>
-                                <p>Node.js is a runtime environment for building fast and scalable network applications
-                                 easily with Javascript. Node.js uses an event driven, non-blocking I/O model that makes it 
-                                 lightweight and efficient, perfect for data intensive real time 
-                                 applications that run across distributed devices. 
-                                 It provides a rich library of various JavaScript 
-                                 modules which simplifies the development of web 
-                                 applications using Node.js to a great extent.</p>
+				                <h4>Server-Side JavaScript (JSP)</h4>
+                                <p>Java Server Pages (JSP) is a server-side programming technology 
+                                    that enables the creation of dynamic, 
+                                    platform-independent method for building Web-based applications. 
+                                    JSP have access to the entire family of Java APIs, 
+                                    including the JDBC API to access enterprise databases.</p>
 				            </div>
 				        </div>
 				    </div>
@@ -131,6 +129,16 @@
 				            </div>
 				        </div>
 				    </div>
+                    <div class="row second-row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="about-details text-center">
+                            <div class="single-about">
+                                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
+                                <h4>NodesJs</h4>
+                                <p>- Node.js is a runtime environment for building fast and scalable network applications easily with JavaScript. Node.js uses an event driven, non blocking I/O model that makes it lightweight and efficient, perfect for data intensive real time applications that run across distributed devices. It  provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</p>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>
