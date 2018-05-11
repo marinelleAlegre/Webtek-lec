@@ -48,7 +48,7 @@
                                     <a class="page-scroll" href="#home">Home</a>
                                 </li>
                                 <li>
-                                    <a class="page-scroll" href="#">Java Web Servlets</a>
+                                    <a class="page-scroll" href="../FINALS/notes/JAVA SERVLET/JavaServlet.php">Java Web Servlets</a>
                                 </li>
                                 <li>
                                     <a class="page-scroll" href="../FINALS/notes/NODE JS notes/node.js.php">Node.JS</a>
