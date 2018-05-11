@@ -76,7 +76,6 @@
                                         <b>Web Development with no limits</b>
                                     </span>
                                 </h2>
-                                <a href="#" class="btn custom-btn">LECTURE</a><span class="btn-2"><a href="#" class="btn custom-btn">FINALS</a></span>
                             </div>
                         </div>
                     </div>

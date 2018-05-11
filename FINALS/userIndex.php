@@ -51,13 +51,13 @@
                                     <a class="page-scroll" href="#">Java Web Servlets</a>
                                 </li>
                                 <li>
-                                    <a class="page-scroll" href="#">Node.JS</a>
+                                    <a class="page-scroll" href="../FINALS/notes/NODE JS notes/node.js.php">Node.JS</a>
                                 </li>		              	
                                 <li>
-                                    <a class="page-scroll" href="#">PHP</a>
+                                    <a class="page-scroll" href="../FINALS/notes/PHP notes/PHP.php">PHP</a>
                                 </li>
                                 <li>
-                                    <a class="page-scroll" href="#">JSP</a>
+                                    <a class="page-scroll" href="../FINALS/notes/JSP notes/JSP.php">JSP</a>
                                 </li>   			              	
                                 <li>
                                     <a class="page-scroll" href="#">Quiz</a>
