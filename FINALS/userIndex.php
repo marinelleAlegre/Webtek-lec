@@ -59,10 +59,9 @@
                                 <li>
                                     <a class="page-scroll" href="../FINALS/notes/JSP notes/JSP.php">JSP</a>
                                 </li>   			              	
-                                <li>
-                                    <a class="page-scroll" href="#">Quiz</a>
-                                </li>
-                                <!--DROPDOWN LIST dito (name ng user) then logout-->		              	              	              	
+                                <!--li>
+                                    <a class="page-scroll">Quiz</a>
+                                </li-->
                                 <li>
                                     <a class="page-scroll" href="../FINALS/logout.php">Logout</a>
                                 </li>		              			              
@@ -104,7 +103,7 @@
 				    <div class="col-md-3 col-sm-4">
 				        <div class="about-details text-center">
 				            <div class="single-about">
-				                <a class="about-icon" href="#"><i class="fa fa-tablet"></i></a>
+				                <a class="about-icon" href="../FINALS/notes/JAVA SERVLET/JavaServlet.php"><i class="fa fa-tablet"></i></a>
 				                <h4>Java Web Servlets</h4>
 				            </div>
 				        </div>
@@ -112,7 +111,7 @@
 				    <div class="col-md-3 col-sm-4">
 				        <div class="about-details text-center">
 				            <div class="single-about">
-				                <a class="about-icon" href="#"><i class="fa fa-code"></i></a>
+				                <a class="about-icon" href="../FINALS/notes/JSP notes/JSP.php"><i class="fa fa-code"></i></a>
 				                <h4>Server-Side JavaScript</h4>
 				            </div>
 				        </div>
@@ -120,7 +119,7 @@
 				    <div class="col-md-3 col-sm-4">
 				        <div class="about-details text-center">
 				            <div class="single-about">
-				                <a class="about-icon" href="#"><i class="fa fa-laptop"></i></a>
+				                <a class="about-icon" href="../FINALS/notes/PHP notes/PHP.php"><i class="fa fa-laptop"></i></a>
 				                <h4>PHP</h4>
 				            </div>
 				        </div>
@@ -128,7 +127,7 @@
                     <div class="col-md-3 col-sm-4">
                         <div class="about-details text-center">
                             <div class="single-about">
-                                <a class="about-icon" href="#"><i class="fa fa-file-code-o"></i></a>
+                                <a class="about-icon" href="../FINALS/notes/NODE JS notes/node.js.php"><i class="fa fa-file-code-o"></i></a>
                                 <h4>Nodes.JS</h4>
                             </div>
                         </div>
