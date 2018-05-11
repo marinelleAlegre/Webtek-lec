@@ -15,12 +15,12 @@
   <div id="main">
     <div id="header">
       <div id="logo">
-        <h1>Java Server Pages<a href="#"></a></h1>
+        <h1>Java Server Pages<a href="JSP.php"></a></h1>
       </div>
       <div id="menubar">
         <ul id="menu">
           <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="current"><a href="# ">Discussion</a></li>
+          <li class="current"><a href="JSP.php">Discussion</a></li>
           <li><a href="../JSP notes/examples.php">Examples</a></li>
         </ul>
       </div>
