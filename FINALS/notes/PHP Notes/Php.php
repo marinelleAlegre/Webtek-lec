@@ -1,22 +1,19 @@
- <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 
 <html>
 	<head>
-		<title>WEB SYSTEMS AND TECHNOLOGIES | PHP</title>
+		<title>PHP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
-
-					<nav id="nav">
-					</nav>
 				</header>
 
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2><center><a href="Php.php">PHP</center></h2>
+							<h2><center>PHP</center></h2>
 							<p>Hypertext Preprocessor a server side <br/>
 							scripting language for Web Development.</p>
 						</header>
@@ -137,6 +134,11 @@ c) PHP Parser − In order to process PHP script instructions a parser must be i
 								    https://www.tutorialspoint.com/listtutorials/php/discussion-forums/1
                                     https://www.w3schools.com/php/default.asp
                                     </p>
+					
+					          <div>
+					          	<h4><a href="../PHP notes/PHP quiz/index.php">Quiz</a></h4>
+					          </div>
+
 								</div>
 							</div>
 						</div>

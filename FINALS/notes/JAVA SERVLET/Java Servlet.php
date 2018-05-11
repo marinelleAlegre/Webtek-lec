@@ -88,7 +88,7 @@
   
       </div>
                <div>
-                      <h4><a href="../JAVA SERVLET/Servlet quiz/quiz.php">Quiz</a></h4>
+                      <h4><a href="../Servlet quiz/quiz.php">Quiz</a></h4>
                 </div>
     </div>
   </div>

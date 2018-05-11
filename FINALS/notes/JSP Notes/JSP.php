@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>WEB SYSTEMS AND TECHNOLOGIES | Java Server Pages</title>
+  <title>Java Server Pages</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -15,13 +15,13 @@
   <div id="main">
     <div id="header">
       <div id="logo">
-        <h1>Java Server Pages<a href="JSP.php"></a></h1>
+        <h1>Java Server Pages<a href="#"></a></h1>
       </div>
       <div id="menubar">
         <ul id="menu">
           <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="current"><a href="JSP.php">Discussion</a></li>
-          <li><a href="../JSP notes/examples.php">Examples</a></li>
+          <li class="current">Discussion</li>
+          <li>Examples</li>
         </ul>
       </div>
     </div>
@@ -58,6 +58,7 @@
                           https://www.tutorialspoint.com/jsp/jsp_questions_answers.htm
                           
         </ul>
+
       </div>
     </div>
   </div>
