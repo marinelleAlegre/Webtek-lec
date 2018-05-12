@@ -21,25 +21,25 @@
             
                 <li>
                 
-                    <h3>1. You can define a constant by using the define() function. Once a constant is defined</h3>
+                    <h3>You can define a constant by using the define() function. Once a constant is defined</h3>
                     
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers" value="A" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
                         <label for="question-1-answers-A">A) It can never be change or undefined</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers" value="B" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
                         <label for="question-1-answers-B">B) It can be change and can be undefined</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers" value="C" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
                         <label for="question-1-answers-C">C) It can never be changed but can be undefined</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers" value="D" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
                         <label for="question-1-answers-D">D) It can be changed but can not be undefined</label>
                     </div>
                 
@@ -47,25 +47,25 @@
                 
                 <li>
                 
-                    <h3>2. What is the output?</h3> <p> ?php $x=array(1,3,2,2,7,8,9,7,3);$y=array_count_values($x);echo$y[8];? </p>
+                    <h3>What is the output?</h3> <p> ?php $x=array(1,3,2,2,7,8,9,7,3);$y=array_count_values($x);echo$y[8];? </p>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers" value="A" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
                         <label for="question-2-answers-A">A) 43</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers" value="B" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
                         <label for="question-2-answers-B">B) 1</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers" value="C" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
                         <label for="question-2-answers-C">C) 6</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers" value="D" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) 8</label>
                     </div>
                 
@@ -73,15 +73,15 @@
                 
                 <li>
                 
-                    <h3>3. Is PHP can support multiple inheritance?</h3>
+                    <h3>Is PHP can support multiple inheritance?</h3>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers" value="A" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
                         <label for="question-3-answers-A">A) No</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers" value="B" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
                         <label for="question-3-answers-B">B) Yes</label>
                     </div>
                     
@@ -90,25 +90,25 @@
                 
                 <li>
                 
-                    <h3>4. Which of the following function returns the number of characters in a string variable?</h3>
+                    <h3>Which of the following function returns the number of characters in a string variable?</h3>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers" value="A" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
                         <label for="question-4-answers-A">A) len($variable)</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers" value="B" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
                         <label for="question-4-answers-B">B) count($variable)</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers" value="C" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
                         <label for="question-4-answers-C">C) strcount($variable)</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers" value="D" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
                         <label for="question-4-answers-D">D) strlen($variable)</label>
                     </div>
                 
@@ -116,25 +116,25 @@
                 
                 <li>
                 
-                    <h3>5. Variable scope on which a variable does not loose its value when the function exists and use that value if the function is called again is</h3>
+                    <h3>Variable scope on which a variable does not loose its value when the function exists and use that value if the function is called again is</h3>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers" value="A" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
                         <label for="question-5-answers-A">A)  static</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers" value="B" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
                         <label for="question-5-answers-B">B) Local</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers" value="C" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
                         <label for="question-5-answers-C">C) function parameter</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers" value="D" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
                         <label for="question-5-answers-D">D) None of above</label>
                     </div>
                 
@@ -142,7 +142,7 @@
                 
                 <li>
                 
-                    <h3>6. To produce the output I love the summer time, Which of the following statement should be used?
+                    <h3>To produce the output I love the summer time, Which of the following statement should be used?
 a. <?php print("<P>I love the summer time</p>");?>
 
 b. <?php $season = "summer time"; print("<P>I love the $season</p>"); ?>
@@ -150,22 +150,22 @@ b. <?php $season = "summer time"; print("<P>I love the $season</p>"); ?>
 c. <?php $message = "I love the $season"; echo $message; ?></h3>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers" value="A" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
                         <label for="question-6-answers-A">A)  a</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers" value="B" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
                         <label for="question-6-answers-B">B) a and c</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers" value="C" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
                         <label for="question-6-answers-C">C) a and b</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers" value="D" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
                         <label for="question-6-answers-D">D) all of the above</label>
                     </div>
                 
@@ -173,25 +173,25 @@ c. <?php $message = "I love the $season"; echo $message; ?></h3>
                 
                 <li>
                 
-                    <h3>7. Which of following variable assignment is 'by value' assignment in PHP ?</h3>
+                    <h3>Which of following variable assignment is 'by value' assignment in PHP ?</h3>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers" value="A" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
                         <label for="question-7-answers-A">A)  $value1= $value?</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers" value="B" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
                         <label for="question-7-answers-B">B) $value1= # $value?</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers" value="C" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
                         <label for="question-7-answers-C">C) $value1= & $value?</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers" value="D" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
                         <label for="question-7-answers-D">D) None</label>
                     </div>
                 
@@ -199,25 +199,25 @@ c. <?php $message = "I love the $season"; echo $message; ?></h3>
                 
                 <li>
                 
-                    <h3>8. Identify the variable scope that is not supported by PHP ?</h3>
+                    <h3>Identify the variable scope that is not supported by PHP ?</h3>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers" value="A" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
                         <label for="question-8-answers-A">A)  Local variables</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers" value="B" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
                         <label for="question-8-answers-B">B) Function parameters</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers" value="C" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
                         <label for="question-8-answers-C">C) Hidden variables</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers" value="D" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
                         <label for="question-8-answers-D">D) Global variables</label>
                     </div>
                 
@@ -225,25 +225,25 @@ c. <?php $message = "I love the $season"; echo $message; ?></h3>
                 
                 <li>
                 
-                    <h3>9. Which of the following mode of fopen() function opens a file only for writing. If a file with that name does not exist, attempts to create anew file. If the file exist, place the file pointer at the end of the file after all other data.</h3>
+                    <h3>Which of the following mode of fopen() function opens a file only for writing. If a file with that name does not exist, attempts to create anew file. If the file exist, place the file pointer at the end of the file after all other data.</h3>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers" value="A" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
                         <label for="question-9-answers-A">A)  W</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers" value="B" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
                         <label for="question-9-answers-B">B) W+</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers" value="C" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
                         <label for="question-9-answers-C">C) A</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers" value="D" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
                         <label for="question-9-answers-D">D) A+</label>
                     </div>
                 
@@ -251,25 +251,25 @@ c. <?php $message = "I love the $season"; echo $message; ?></h3>
                 
                 <li>
                 
-                    <h3>10. How do you get information from a form that is submitted using the "get" method?</h3>
+                    <h3>How do you get information from a form that is submitted using the "get" method?</h3>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers" value="A" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
                         <label for="question-10-answers-A">A)  $_GET[];</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers" value="B" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
                         <label for="question-10-answers-B">B) Request.Form;</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers" value="C" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
                         <label for="question-10-answers-C">C) Request.QueryString;</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers" value="D" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
                         <label for="question-10-answers-D">D) $_POST[];</label>
                     </div>
                 
@@ -280,22 +280,22 @@ c. <?php $message = "I love the $season"; echo $message; ?></h3>
                     <h3>Bonus question PHP variables are_____ ?</h3>
                     
                     <div>
-                        <input type="radio" name="question-11-answers" id="question-11-answers" value="A" />
+                        <input type="radio" name="question-11-answers" id="question-11-answers-A" value="A" />
                         <label for="question-11-answers-A">A)  Multitype variables</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-11-answers" id="question-11-answers" value="B" />
+                        <input type="radio" name="question-11-answers" id="question-11-answers-B" value="B" />
                         <label for="question-11-answers-B">B) Single type variable</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-11-answers" id="question-11-answers" value="C" />
+                        <input type="radio" name="question-11-answers" id="question-11-answers-C" value="C" />
                         <label for="question-11-answers-C">C) Double type variables</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-11-answers" id="question-11-answers" value="D" />
+                        <input type="radio" name="question-11-answers" id="question-11-answers-D" value="D" />
                         <label for="question-11-answers-D">D) Trible type variables</label>
                     </div>
                 
