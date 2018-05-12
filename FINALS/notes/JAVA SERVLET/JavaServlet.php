@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>textured_green</title>
+  <title>WEB SYSTEMS AND TECHNOLOGIES | Java Servlet</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -15,7 +15,7 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="Java Servlet.html">Java Servlet</a></h1>
+          <h1><a href="JavaServlet.php">Java Servlet</a></h1>
         </div>
       </div>
       <div id="menubar">
