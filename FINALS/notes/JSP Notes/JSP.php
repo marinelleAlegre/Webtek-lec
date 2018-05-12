@@ -19,9 +19,8 @@
       </div>
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
           <li class="current">Discussion</li>
-          <li>Examples</li>
+          <li><a href="examples.php">Examples</a></li>
         </ul>
       </div>
     </div>

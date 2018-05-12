@@ -20,8 +20,7 @@
       </div>
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.html">Notes</a></li>
+          <li class="selected"><a href="#">Notes</a></li>
         </ul>
       </div>
     </div>
@@ -31,7 +30,6 @@
         </form>
       </div>
       <div id="content">
-        <!-- insert the page content here -->
         <h1>What is Java Servlet?</h1>
         <p>Servlet is a JAVA programming language class used to extend the capabilities of server that host applications accessed by means of a request-response programming model.Servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers.A servlet can almost be thought of as an applet that runs on the server side--without a face. Java servlets make many Web applications possible.</p>
           
@@ -88,7 +86,7 @@
   
       </div>
                <div>
-                      <h4><a href="../JAVA SERVLET/Servlet quiz/quiz.php">Quiz</a></h4>
+                      <h4><a href="../JAVA SERVLET/Servlet quiz/index.php">Quiz</a></h4>
                 </div>
     </div>
   </div>
