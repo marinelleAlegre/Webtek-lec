@@ -28,20 +28,42 @@
             $answer9 = $_POST['question-9-answers'];
             $answer10 = $_POST['question-10-answers'];
         
-            $totalCorrect = 0;
+            $totalCorrect = 0; 
             
-            if ($answer1 == "A") { $totalCorrect++; }
-            if ($answer2 == "B") { $totalCorrect++; }
-            if ($answer3 == "A") { $totalCorrect++; }
-            if ($answer4 == "D") { $totalCorrect++; }
-            if ($answer5 == "A") { $totalCorrect++; }
-            if ($answer6 == "B") { $totalCorrect++; }
-            if ($answer7 == "A") { $totalCorrect++; }
-            if ($answer8 == "C") { $totalCorrect++; }
-            if ($answer9 == "C") { $totalCorrect++; }
-            if ($answer10 == "A") { $totalCorrect++; }
-            if ($answer11 == "A") { $totalCorrect++; }
-            
+                  if ($answer1 == "A") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer2 == "B") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer3 == "A") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer4 == "D") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer5 == "A") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer6 == "B") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer7 == "A") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer8 == "C") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer9 == "C") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer10 == "A") { 
+                        $totalCorrect++; 
+                  } 
+                  if ($answer11 == "A") { 
+                        $totalCorrect++; 
+                  }
+                  
             echo "<div id='results'>$totalCorrect / 10 correct</div>";
             
         ?>
