@@ -41,6 +41,7 @@
 			if ($answer10 == "A") { $totalCorrect++; }
 
 				echo "<div id='results'>$totalCorrect / 10 correct</div>";
+				echo "<a href='../../../userindex.php'>BACK</a>";
 			?>
 
 			</div>

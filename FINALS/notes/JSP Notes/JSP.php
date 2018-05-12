@@ -19,8 +19,9 @@
       </div>
       <div id="menubar">
         <ul id="menu">
-          <li class="current">Discussion</li>
+          <li class="current"><a href="#">Discussion</a></li>
           <li><a href="examples.php">Examples</a></li>
+          <li><a href="../../userindex.php">Home</a></li>
         </ul>
       </div>
     </div>

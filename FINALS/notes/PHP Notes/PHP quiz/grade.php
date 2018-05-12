@@ -65,6 +65,7 @@
                   }
                   
             echo "<div id='results'>$totalCorrect / 10 correct</div>";
+            echo "<a href='../../../userindex.php'>BACK</a>";
             
         ?>
 	

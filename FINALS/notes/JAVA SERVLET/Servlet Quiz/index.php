@@ -19,7 +19,7 @@
 		
             <ol>
             	<li>
-					<h2>When service() method of servlet gets called?</h2>
+					<h3>When service() method of servlet gets called?</h3>
 					<div>
 					<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" required/> 
 					<label for="question-1-answers-A"> A) The service() method is called when the servlet is first created.</label>
@@ -60,7 +60,7 @@
 
 					<li>
 						<div>
-							<h4>Which of the following is the correct order of filter life cycle phase methods?</h4>
+							<h3>Which of the following is the correct order of filter life cycle phase methods?</h3>
 							<div>
 							<input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" required/> 
 							<label for="question-3-answers-A"> A) init(), service(), destroy()</label>
@@ -73,14 +73,14 @@
 							<input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" required/> 
 							<label for="question-3-answers-C"> C) init(), doFilter(), destroy()</label>3
 						</div>
-						<div>3
+						<div>
 							<input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" required/> 
 							<label for="question-3-answers-D"> D) init(), service(), delete()  </label>
 						</div>
 					</li>
 
 					<li>
-						<h5>Which of the following code retrieves the context of the request?</h5>
+						<h3>Which of the following code retrieves the context of the request?</h3>
 						<div>
 						<input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" required/> 
 						<label for="question-4-answers-A"> A) new ClassContextPath()</label>
@@ -101,7 +101,7 @@
 
 					<li>
 					<div>
-						<h6>Which of the following is true about ini() method of filter?</h6>
+						<h3>Which of the following is true about ini() method of filter?</h3>
 						<div>
 						<input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" required/> 
 						<label for="question-5-answers-A"> A) The init() method simply creates or loads some data that will be used throuhtout the life of the filter.</label>
@@ -122,7 +122,7 @@
 
 					<li>
 					<div>
-						<h7>Which of the following code is used to get session id of a HTTP Session object in servlets?</h7>
+						<h3>Which of the following code is used to get session id of a HTTP Session object in servlets?</h3>
 						<div>
 						<input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" required/> 
 						<label for="question-6-answers-A"> A) session.getSessionId()</label>
@@ -143,7 +143,7 @@
 
 					<li>
 					<div>
-						<h8>Which of the following code is used to get three-letter abbreviation for this locale's language in servlet?</h8>
+						<h3>Which of the following code is used to get three-letter abbreviation for this locale's language in servlet?</h3>
 						<div>
 						<input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" required/> 
 						<label for="question-7-answers-A"> A) response.getISO3Language</label>
@@ -164,7 +164,7 @@
 
 					<li>
 					<div>
-						<h9>Which of the following code retrieves the login of the user making this request?</h9>
+						<h3>Which of the following code retrieves the login of the user making this request?</h3>
 						<div>
 						<input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" required/> 
 						<label for="question-8-answers-A"> A) request.getRemoteUser</label>
@@ -185,7 +185,7 @@
 
 					<li>
 					<div>
-						<h10>Which of the following code can be used to redirect user to different url?</h10>
+						<h3>Which of the following code can be used to redirect user to different url?</h3>
 						<div>
 						<input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" required/> 
 						<label for="question-9-answers-A"> A) request.sendRedirect(location)</label>
@@ -206,7 +206,7 @@
 
 					<li>
 					<div>
-						<h11>Which of the following code is used to get session in servlet?</h11>
+						<h3>Which of the following code is used to get session in servlet?</h3>
 						<div>
 						<input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" required/> 
 						<label for="question-10-answers-A"> A) request.getSession()</label>

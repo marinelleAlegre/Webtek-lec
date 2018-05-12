@@ -20,7 +20,8 @@
       <div id="menubar">
         <ul id="menu">
           <li><a href="JSP.php">Discussion</a></li>
-          <li class="current">Examples</li>
+          <li class="current"><a href="#">Examples</a></li>
+          <li><a href="../../userindex.php">Home</a></li>
       </div>
     </div>
     <div id="site_content">
