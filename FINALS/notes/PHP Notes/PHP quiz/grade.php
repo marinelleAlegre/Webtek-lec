@@ -27,6 +27,7 @@
             $answer8 = $_POST['question-8-answers'];
             $answer9 = $_POST['question-9-answers'];
             $answer10 = $_POST['question-10-answers'];
+            $answer11 = $_POST['question-11-answers'];
         
             $totalCorrect = 0; 
             
