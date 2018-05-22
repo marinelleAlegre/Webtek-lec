@@ -3,17 +3,16 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
 	<title>PHP Quiz</title>
-	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 
 <body>
 
 	<div id="page-wrap">
 
-		<h1>PHP Quiz</h1>
+		<h1>PHP Quiz Results</h1>
 		
         <?php
             

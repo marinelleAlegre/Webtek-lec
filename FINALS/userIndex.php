@@ -76,10 +76,10 @@
                     <div class="row">
                         <div class="col-md-12 text-left">
                             <div class="header-bottom">
-                                <h1>Web System and Technologies </h1>
+                                <h1>Web Systems and Technologies </h1>
                                 <h2 class="cd-headline clip is-full-width">
                                     <span class="cd-words-wrapper">
-                                        <b class="is-visible">School of Computing Information Sciences</b>
+                                        <b class="is-visible">School of Computing and Information Sciences</b>
                                         <b>Final Course Website</b>
                                         <b>Web Development with no limits</b>
                                     </span>
@@ -112,7 +112,7 @@
 				        <div class="about-details text-center">
 				            <div class="single-about">
 				                <a class="about-icon" href="../FINALS/notes/JSP notes/JSP.php"><i class="fa fa-code"></i></a>
-				                <h4>Server-Side JavaScript</h4>
+				                <h4>Java Server Pages</h4>
 				            </div>
 				        </div>
 				    </div>
@@ -128,7 +128,7 @@
                         <div class="about-details text-center">
                             <div class="single-about">
                                 <a class="about-icon" href="../FINALS/notes/NODE JS notes/node.js.php"><i class="fa fa-file-code-o"></i></a>
-                                <h4>Nodes.JS</h4>
+                                <h4>Node.JS</h4>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                    <div class="row">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <div class="copyright text-center">
-                            <p>Copyright © 2018 <a> Web System and Technologies Course Website</a>.All Rights Reserved</p>
+                            <p>Copyright © 2018 <a> Web Systems and Technologies Course Website</a>.All Rights Reserved</p>
                           </div>
                        </div>
                    </div>

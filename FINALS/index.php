@@ -65,10 +65,10 @@
                     <div class="row">
                         <div class="col-md-12 text-left">
                             <div class="header-bottom">
-                                <h1>Web System and Technologies </h1>
+                                <h1>Web Systems and Technologies </h1>
                                 <h2 class="cd-headline clip is-full-width">
                                     <span class="cd-words-wrapper">
-                                        <b class="is-visible">School of Computing Information Sciences</b>
+                                        <b class="is-visible">School of Computing and Information Sciences</b>
                                         <b>Final Course Website</b>
                                         <b>Web Development with no limits</b>
                                     </span>
@@ -107,7 +107,7 @@
 				        <div class="about-details text-center">
 				            <div class="single-about">
 				                <a class="about-icon" href="#about"><i class="fa fa-code"></i></a>
-				                <h4>Server-Side JavaScript (JSP)</h4>
+				                <h4>Java Server Pages (JSP)</h4>
                                 <p>Java Server Pages (JSP) is a server-side programming technology 
                                     that enables the creation of dynamic, 
                                     platform-independent method for building Web-based applications. 
@@ -130,7 +130,7 @@
                         <div class="about-details text-center">
                             <div class="single-about">
                                 <a class="about-icon" href="#about"><i class="fa fa-file-code-o"></i></a>
-                                <h4>NodesJs</h4>
+                                <h4>Node.Js</h4>
                                 <p>- Node.js is a runtime environment for building fast and scalable network applications easily with JavaScript. Node.js uses an event driven, non blocking I/O model that makes it lightweight and efficient, perfect for data intensive real time applications that run across distributed devices. It  provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</p>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                                         <img src="img/testimonial/test3.jpg" alt="">
                                     </div>
                                     <div class="testi-text text-center">
-                                        <h4>Veronica Leonardo</h4>
+                                        <h4>Vironica Leonardo</h4>
                                         <span class="guest-rev">2152028@slu.edu.ph</a></span>
                                     </div>
                                 </div>
@@ -206,7 +206,7 @@
                    <div class="row">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <div class="copyright text-center">
-                            <p>Copyright © 2018 <a> Web System and Technologies Course Website</a>.All Rights Reserved</p>
+                            <p>Copyright © 2018 <a> Web Systems and Technologies Course Website</a>.All Rights Reserved</p>
                           </div>
                        </div>
                    </div>

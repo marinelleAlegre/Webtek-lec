@@ -6,12 +6,16 @@
   <title>WEB SYSTEMS AND TECHNOLOGIES | Node.Js</title>
   <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
   <script type="text/javascript" src="style/accordian.pack.js"></script>
+  <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 
 <body onload="new Accordian('basic-accordian',5,'header_highlight');">
   <div id="logo"><h1>Node.Js</h1></div>
   <div id="basic-accordian" >
-    <div id="test-header" class="accordion_headings header_highlight"><a href="../../userindex.php">Home</a></div>
+    <div id="test-header" class="accordion_headings header_highlight">
+      <a href="../NODE JS Notes/Node_quiz/index.php" style="margin-right: 15px;">Quiz</a>
+      <a href="../../userindex.php">Home</a>
+    </div>
     <div id="test-content">
       <div class="accordion_child">
         <h1>Tutorials to Node.JS </h1>

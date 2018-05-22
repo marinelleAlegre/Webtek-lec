@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="img/logo.png">
 	</head>
 	<body>
 				</header>
@@ -16,7 +17,8 @@
 							<h2><center>PHP</center></h2>
 							<p>Hypertext Preprocessor a server side <br/>
 							scripting language for Web Development.</p>
-							<a href="../../userindex.php">Home</a>
+							<p><a href="../../userindex.php">Home</a>
+							<a href="../PHP notes/PHP quiz/index.php" style="margin-left: 10px;">Quiz</a></p>
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
@@ -135,11 +137,6 @@ c) PHP Parser − In order to process PHP script instructions a parser must be i
 								    https://www.tutorialspoint.com/listtutorials/php/discussion-forums/1
                                     https://www.w3schools.com/php/default.asp
                                     </p>
-					
-					          <div>
-					          	<h4><a href="../PHP notes/PHP quiz/index.php">Quiz</a></h4>
-					          </div>
-
 								</div>
 							</div>
 						</div>

@@ -7,6 +7,7 @@
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 
 <body>
@@ -21,6 +22,8 @@
       <div id="menubar">
         <ul id="menu">
           <li class="selected"><a href="#">Notes</a></li>
+          <li><a href="../JAVA SERVLET/Servlet_quiz/servletQuiz.php">Quiz</a></li>
+          <li><a href="../../userindex.php">Home</a></li>
         </ul>
       </div>
     </div>
@@ -85,9 +88,6 @@
 
   
       </div>
-               <div>
-                      <h4><a href="../JAVA SERVLET/Servlet quiz/index.php">Quiz</a></h4>
-                </div>
     </div>
   </div>
 </body>

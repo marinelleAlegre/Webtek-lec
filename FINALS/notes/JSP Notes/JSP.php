@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
   <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 
 <body>
@@ -21,6 +22,7 @@
         <ul id="menu">
           <li class="current"><a href="#">Discussion</a></li>
           <li><a href="examples.php">Examples</a></li>
+          <li><a href="../JSP notes/JSP_Quiz/index.php">Quiz</a></li>
           <li><a href="../../userindex.php">Home</a></li>
         </ul>
       </div>
